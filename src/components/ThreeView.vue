@@ -121,9 +121,13 @@ export default {
       for(let i=0; i < len; i++){
         // console.log('checker+'+i, this.mesh.children[0].children[0].children[0].children[i].material.color);
         // console.log(this.mesh.children[0].children[0].children[0].children[i]);
-        if(this.mesh.children[0].children[0].children[0].children[i].name == "Part1_2" || this.mesh.children[0].children[0].children[0].children[i].name == "Part1_5" || this.mesh.children[0].children[0].children[0].children[i].name == "Part1_7"){
+        if(this.mesh.children[0].children[0].children[0].children[i].name == "Part1_2" || this.mesh.children[0].children[0].children[0].children[i].name == "Part1_5"){
           this.mesh.children[0].children[0].children[0].children[i].material.color.setStyle(this.setcolor);
         }
+        // if(this.mesh.children[0].children[0].children[0].children[i].name == "Part1_7"){
+        //   console.log(this.mesh.children[0].children[0].children[0].children[i]);
+        //   this.mesh.children[0].children[0].children[0].children[i].scale.set( 1, 1, 1.5 );
+        // }
       }
     },
     render() {
