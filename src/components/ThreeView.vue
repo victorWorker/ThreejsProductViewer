@@ -1,19 +1,46 @@
 <template>
 <div>
-  <div>
+  <!-- <div>
     <input type="color" v-model="setcolor">
     <button @click="changebutton">Update</button>
+  </div> -->
+  <div class="products">
+    <div v-for="(item, index) in products" :key="index" class="itemImg">
+      <img  :src='item.img' @click="onChangeImage(index)" class="productImg" alt="">
+    </div>
+    
   </div>
-  
-  <div id="container"></div>
+  <div class="Previewer">
+    <div id="container"></div>
+  </div>
 </div>
   
 </template>
 <style scoped>
 #container {
-  width: 100%;
-  height: 90vh;
   background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+#loader{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.Previewer{
+  width: 1200px;
+  height: 800px;
+}
+.products{
+  display: flex;
+}
+.itemImg{
+  margin: 10px;
+}
+.productImg{
+  width: 80px;
+  height: 80px;
 }
 </style>
 <script>
@@ -26,7 +53,6 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 export default {
   data() {
     return {
-      loader: null,
       camera: null,
       scene: null,
       renderer: null,
@@ -34,6 +60,14 @@ export default {
       cameraTarget: null,
       controls: null,
       setcolor: null,
+      loader: false,
+      products: [
+        {name: 'Alcatel_Joy_Tab_2',  img: require('../assets/img/Alcatel_Joy_Tab_2.png')},
+        {name: 'Amazon_fire_10', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'Amazon_fire_10_plus', img: require('../assets/img/Amazon_fire_10_plus.png')},
+        {name: 'New', img: require('../assets/img/New.png')},
+        {name: 'switch_7', img: require('../assets/img/switch_7.png')},
+      ],
     }
   },
   methods: {
@@ -49,18 +83,13 @@ export default {
 
         this.scene = new Three.Scene();
 
-        const ambientLight = new Three.AmbientLight( 0xcccccc, 0.4 );
-				this.scene.add( ambientLight );
+        // const ambientLight = new Three.AmbientLight( 0xcccccc, 0.4 );
+				// this.scene.add( ambientLight );
 
-				const pointLight = new Three.PointLight( 0xffffff, 0.8 );
-				this.camera.add( pointLight );
+				// const pointLight = new Three.PointLight( 0xffffff, 0.8 );
+				// this.camera.add( pointLight );
 				// scene.add( camera );
-        this.scene.background = new Three.Color(0xa0a0a0);
-        // this.scene.fog = new Three.Fog(0xa0a0a0, 200, 1000);
-        // const texture = new Three.TextureLoader().load("textire/grid_25.jpg");
-        // const material = new Three.MeshPhongMaterial( { color: 0xff0033, specular: 0x111111, shininess: 200 } );
-      
-        // let materialColors;
+        // this.scene.background = new Three.Color(0xa0a0a0);
         new RGBELoader()
 					.load( 'royal_esplanade_1k.hdr', function ( texture ) {
 
@@ -74,7 +103,7 @@ export default {
 						// model
 
 						const loader = new GLTFLoader().setPath('products/');
-						loader.load( 'New.gltf', function ( gltf ) {
+						loader.load( self.products[0].name+'.gltf', function ( gltf ) {
               gltf.scene.position.set(0, -2, 0 );
 							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
               gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
@@ -85,26 +114,11 @@ export default {
 
 					} );
 
-        
-        // this.scene.add( new Three.HemisphereLight( 0x443333, 0x111122 ) );
-
-        // let geometry = new Three.BoxGeometry(0.2, 0.2, 0.2);
-        // let material = new Three.MeshNormalMaterial();
-
-        // this.mesh = new Three.Mesh(geometry, material);
-        // this.scene.add(this.mesh);
-        // this.addShadowedLight( 1, 1, 1, 0xffffff, 1.35 );
-        // this.addShadowedLight( -1, -1, 1, 0xffaa00, 1 );
-        // this.addShadowedLight( -1, -1, -1, 0xffaa00, 1 );
-        // this.addShadowedLight( -1, 1, -1, 0xffaa00, 1 );
-        // this.addShadowedLight( 1, -1, -1, 0xffaa00, 1 );
-				// this.addShadowedLight( 0.5, 1, - 1, 0xffaa00, 1 );
-        // this.addShadowedLight( 0.5, -1, 1, 0xffaa00, 1 );
-        // this.addShadowedLight( -1, -1, -1, 0xffaa00, 1 );
-
-
         this.renderer = new Three.WebGLRenderer({antialias: true});
         this.renderer.setSize(container.clientWidth, container.clientHeight);
+        this.renderer.toneMapping = Three.ACESFilmicToneMapping;
+        this.renderer.toneMappingExposure = 1;
+        this.renderer.outputEncoding = Three.sRGBEncoding
         console.log('widthxheight =>',  container.clientWidth +'+'+ container.clientHeight)
         container.appendChild(this.renderer.domElement);
 
@@ -117,7 +131,7 @@ export default {
     changebutton() {
       console.log(this.setcolor.toString(16));
       const len = this.mesh.children[0].children[0].children[0].children.length;
-      console.log(this.mesh.children[0].children[0].children);
+      console.log(this.mesh);
       for(let i=0; i < len; i++){
         // console.log('checker+'+i, this.mesh.children[0].children[0].children[0].children[i].material.color);
         // console.log(this.mesh.children[0].children[0].children[0].children[i]);
@@ -133,7 +147,20 @@ export default {
     render() {
       this.renderer.render(this.scene, this.camera);
     },
-
+    onChangeImage(index) {
+      let self = this;
+      self.loader = true;
+      self.scene.remove(self.mesh);
+      const loader = new GLTFLoader().setPath('products/');
+      loader.load( self.products[index].name+'.gltf', function ( gltf ) {
+        gltf.scene.position.set(0, -2, 0 );
+        gltf.scene.scale.set( 20.0, 20.0, 20.0 );
+        gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
+        self.scene.add( gltf.scene );
+        self.loader = false;
+        self.mesh = gltf.scene;
+      } );
+    },
     addShadowedLight: function( x, y, z, color, intensity ) {
 
 				const directionalLight = new Three.DirectionalLight( color, intensity );
