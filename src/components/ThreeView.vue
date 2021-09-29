@@ -103,7 +103,8 @@ export default {
 						// model
 
 						const loader = new GLTFLoader().setPath('products/');
-						loader.load( self.products[0].name+'.gltf', function ( gltf ) {
+						// loader.load( self.products[0].name+'.gltf', function ( gltf ) {
+            loader.load('Amazon_Fire_HD_8.gltf', function ( gltf ) {
               gltf.scene.position.set(0, -2, 0 );
 							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
               gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
