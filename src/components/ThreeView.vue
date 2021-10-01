@@ -67,6 +67,7 @@ export default {
         {name: 'Amazon_fire_10_plus', img: require('../assets/img/Amazon_fire_10_plus.png')},
         {name: 'New', img: require('../assets/img/New.png')},
         {name: 'switch_7', img: require('../assets/img/switch_7.png')},
+        {name: 'Asus_Transformer_Book_Flip', img: require('../assets/img/Asus_Transformer_Book_Flip.png')}
       ],
     }
   },
@@ -104,7 +105,7 @@ export default {
 
 						const loader = new GLTFLoader().setPath('products/');
 						// loader.load( self.products[0].name+'.gltf', function ( gltf ) {
-            loader.load('Amazon_Fire_HD_8.gltf', function ( gltf ) {
+            loader.load('Asus_Transformer_Book_Flip.gltf', function ( gltf ) {
               gltf.scene.position.set(0, -2, 0 );
 							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
               gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
