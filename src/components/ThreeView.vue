@@ -105,7 +105,7 @@ export default {
 
 						const loader = new GLTFLoader().setPath('products/');
 						// loader.load( self.products[0].name+'.gltf', function ( gltf ) {
-            loader.load('Asus_Transformer_Book_Flip.gltf', function ( gltf ) {
+            loader.load('Asus_Transformer_Mini_10.gltf', function ( gltf ) {
               gltf.scene.position.set(0, -2, 0 );
 							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
               gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
