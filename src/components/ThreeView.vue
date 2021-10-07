@@ -7,6 +7,7 @@
   <div class="products">
     <div v-for="(item, index) in products" :key="index" class="itemImg">
       <img  :src='item.img' @click="onChangeImage(index)" class="productImg" alt="">
+      <!-- <span>{{item.name}}</span> -->
     </div>
     
   </div>
@@ -34,9 +35,12 @@
 }
 .products{
   display: flex;
+  overflow-wrap: anywhere;
+  width: 1200px;
 }
 .itemImg{
   margin: 10px;
+  display: grid;
 }
 .productImg{
   width: 80px;
@@ -67,7 +71,19 @@ export default {
         {name: 'Amazon_fire_10_plus', img: require('../assets/img/Amazon_fire_10_plus.png')},
         {name: 'New', img: require('../assets/img/New.png')},
         {name: 'switch_7', img: require('../assets/img/switch_7.png')},
-        {name: 'Asus_Transformer_Book_Flip', img: require('../assets/img/Asus_Transformer_Book_Flip.png')}
+        {name: 'Asus_Transformer_Book_Flip', img: require('../assets/img/Asus_Transformer_Book_Flip.png')},
+        {name: 'Asus_Transformer_Mini_10', img: require('../assets/img/Asus_Transformer_Mini_10.png')},
+        {name: 'Amazon_Fire_HD_8', img: require('../assets/img/Amazon_Fire_HD_8.png')},
+        {name: 'Asus_Zenpad_3s_10', img: require('../assets/img/Asus_Zenpad_3s_10.png')},
+        {name: 'Chuwi_Hi10_Pro', img: require('../assets/img/Chuwi_Hi10_Pro.png')},
+        {name: 'Chuwi_Hi13', img: require('../assets/img/Chuwi_Hi13.png')},
+        {name: 'Chuwi_HiBook_Pro', img: require('../assets/img/Chuwi_HiBook_Pro.png')},
+        {name: 'Huawei_Matepad_Pro', img: require('../assets/img/Huawei_Matepad_Pro.png')},
+        {name: 'Huawei_MediaPad_T3_10', img: require('../assets/img/Huawei_MediaPad_T3_10.png')},
+        {name: 'Lenovo_Tab_P11_Pro', img: require('../assets/img/Lenovo_Tab_P11_Pro.png')},
+        {name: 'Lenovo_IdeaPad_Miix_520', img: require('../assets/img/Lenovo_IdeaPad_Miix_520.png')},
+        {name: 'Lenovo_Miix_630', img: require('../assets/img/Lenovo_Miix_630.png')},
+        {name: 'Lenovo_Tab_4_8', img: require('../assets/img/Lenovo_Tab_4_8.png')},
       ],
     }
   },
@@ -103,9 +119,10 @@ export default {
 
 						// model
 
-						const loader = new GLTFLoader().setPath('products/');
+						// const loader = new GLTFLoader().setPath('products/');
+            const loader = new GLTFLoader().setPath('products/');
 						// loader.load( self.products[0].name+'.gltf', function ( gltf ) {
-            loader.load('Asus_Transformer_Mini_10.gltf', function ( gltf ) {
+            loader.load('Lenovo_Tab_4_8.gltf', function ( gltf ) {
               gltf.scene.position.set(0, -2, 0 );
 							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
               gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );

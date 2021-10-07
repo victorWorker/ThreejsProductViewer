@@ -1,0 +1,1035 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 705,
+            "max": [
+                115.9000015258789,
+                24.899999618530273,
+                3.5
+            ],
+            "min": [
+                114.9000015258789,
+                14.899999618530273,
+                1.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 705,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 2958,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 925,
+            "max": [
+                115.9000015258789,
+                54.900001525878906,
+                3.5
+            ],
+            "min": [
+                114.9000015258789,
+                34.900001525878906,
+                1.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 925,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 3978,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 897,
+            "max": [
+                114.9000015258789,
+                2.1337552070617676,
+                4.849999904632568
+            ],
+            "min": [
+                -114.9000015258789,
+                -79.9000015258789,
+                -2.7755575615628914e-17
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 897,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 2253,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 60425,
+            "max": [
+                114.9000015258789,
+                79.9000015258789,
+                7.949999809265137
+            ],
+            "min": [
+                -114.9000015258789,
+                -79.9000015258789,
+                -0.550000011920929
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 60425,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 315198,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 2237,
+            "max": [
+                104.9000015258789,
+                73.8974609375,
+                7.949999809265137
+            ],
+            "min": [
+                -104.9000015258789,
+                -73.80384826660156,
+                7.849999904632568
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 2237,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 6261,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 16411,
+            "max": [
+                114.9000015258789,
+                72.00128173828125,
+                4.949999809265137
+            ],
+            "min": [
+                -114.9000015258789,
+                -79.9000015258789,
+                -6.658232559098221e-28
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 16411,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 76833,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 4294,
+            "max": [
+                8.25,
+                71.89839935302734,
+                4.5
+            ],
+            "min": [
+                -114.80000305175781,
+                -79.8579330444336,
+                0.9739440083503723
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 4294,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 21129,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 196,
+            "max": [
+                113.79296112060547,
+                78.79296112060547,
+                7.949999809265137
+            ],
+            "min": [
+                -113.79296112060547,
+                -78.79296112060547,
+                7.949999809265137
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 196,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 624,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                -80.9000015258789,
+                76.89999389648438,
+                -0.44999998807907104
+            ],
+            "min": [
+                -88.9000015258789,
+                68.9000015258789,
+                -0.44999998807907104
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5125,
+            "count": 114,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                104.9000015258789,
+                64.9000015258789,
+                7.849999904632568
+            ],
+            "min": [
+                -104.9000015258789,
+                -64.9000015258789,
+                7.849999904632568
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.5,
+                73.89999389648438,
+                7.849999904632568
+            ],
+            "min": [
+                -1.5,
+                70.90000915527344,
+                7.849999904632568
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 33,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 34,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 35,
+            "componentType": 5125,
+            "count": 66,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 8460,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8460,
+            "byteOffset": 8460,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 11832,
+            "byteOffset": 16920
+        },
+        {
+            "buffer": 0,
+            "byteLength": 11100,
+            "byteOffset": 28752,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 11100,
+            "byteOffset": 39852,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15912,
+            "byteOffset": 50952
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10764,
+            "byteOffset": 66864,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10764,
+            "byteOffset": 77628,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 9012,
+            "byteOffset": 88392
+        },
+        {
+            "buffer": 0,
+            "byteLength": 725100,
+            "byteOffset": 97404,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 725100,
+            "byteOffset": 822504,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1260792,
+            "byteOffset": 1547604
+        },
+        {
+            "buffer": 0,
+            "byteLength": 26844,
+            "byteOffset": 2808396,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 26844,
+            "byteOffset": 2835240,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 25044,
+            "byteOffset": 2862084
+        },
+        {
+            "buffer": 0,
+            "byteLength": 196932,
+            "byteOffset": 2887128,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 196932,
+            "byteOffset": 3084060,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 307332,
+            "byteOffset": 3280992
+        },
+        {
+            "buffer": 0,
+            "byteLength": 51528,
+            "byteOffset": 3588324,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 51528,
+            "byteOffset": 3639852,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 84516,
+            "byteOffset": 3691380
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2352,
+            "byteOffset": 3775896,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2352,
+            "byteOffset": 3778248,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2496,
+            "byteOffset": 3780600
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 3783096,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 3783576,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 3784056,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 456,
+            "byteOffset": 3784376
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 3784832,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 3784880,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 32,
+            "byteOffset": 3784928,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24,
+            "byteOffset": 3784960
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 3784984,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 3785272,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 3785560,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 264,
+            "byteOffset": 3785752
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3786016,
+            "uri": "Huawei MediaPad T3 10 resources/Huawei MediaPad T3 10.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 614.4683837890625,
+                "znear": 421.6133728027344
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Huawei MediaPad T3 10 resources/front Lens.jpg"
+        },
+        {
+            "uri": "Huawei MediaPad T3 10 resources/natural-4674114.jpg"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.3
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21
+                    },
+                    "indices": 23,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 25,
+                        "POSITION": 24,
+                        "TEXCOORD_0": 26
+                    },
+                    "indices": 27,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 29,
+                        "POSITION": 28,
+                        "TEXCOORD_0": 30
+                    },
+                    "indices": 31,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei MediaPad T3 10-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 33,
+                        "POSITION": 32,
+                        "TEXCOORD_0": 34
+                    },
+                    "indices": 35,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.7861611874496788,
+                -1.888108158709656e-07,
+                0.6180215128881628,
+                0,
+                -0.19917619467366587,
+                0.946644204955367,
+                0.2533645984607623,
+                0,
+                -0.5850465297698975,
+                -0.3222805857658386,
+                0.7442148923873901,
+                0,
+                -287.0909118652344,
+                -86.96772766113281,
+                398.1391906738281,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "children": [
+                1
+            ],
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 1,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "children": [
+                3
+            ],
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 2,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 3,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 4,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 5,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 6,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 7,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 8,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 9,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "mesh": 10,
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "children": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "children": [
+                2,
+                4,
+                14
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.5,
+                79.9000015258789,
+                -3.6999998092651367,
+                1
+            ],
+            "name": "Huawei MediaPad T3 10"
+        },
+        {
+            "children": [
+                15
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                16
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 0
+        }
+    ]
+}
+   

@@ -1,0 +1,963 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 4568,
+            "max": [
+                115.4000015258789,
+                79.5,
+                7.989999771118164
+            ],
+            "min": [
+                -115.4000015258789,
+                -71.9000015258789,
+                3.497565269470215
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4568,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 16608,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 1762,
+            "max": [
+                -83.00257110595703,
+                69.5,
+                -1.899999976158142
+            ],
+            "min": [
+                -112.99742889404297,
+                59.5,
+                -2
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 1762,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 7266,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 2262,
+            "max": [
+                121,
+                70.5,
+                3.115000009536743
+            ],
+            "min": [
+                -114,
+                -5.534549236297607,
+                -1.899999976158142
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 2262,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 11214,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 8352,
+            "max": [
+                120.5,
+                77,
+                7.989999771118164
+            ],
+            "min": [
+                -120.5,
+                -77,
+                7.889999866485596
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 8352,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 36468,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 30556,
+            "max": [
+                123,
+                80.5,
+                7.989999771118164
+            ],
+            "min": [
+                -124,
+                -79.5,
+                -1.954651362110262e-18
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 30556,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 149562,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 13795,
+            "max": [
+                123,
+                45,
+                4.4949774742126465
+            ],
+            "min": [
+                -123,
+                -79.4000015258789,
+                1.434999942779541
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 13795,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 69369,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 122,
+            "max": [
+                121,
+                77.5,
+                0
+            ],
+            "min": [
+                -121,
+                -77.5,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 122,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 378,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 81,
+            "max": [
+                115.4000015258789,
+                71.9000015258789,
+                7.940000057220459
+            ],
+            "min": [
+                -115.4000015258789,
+                -71.9000015258789,
+                7.940000057220459
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 81,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5126,
+            "count": 81,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5125,
+            "count": 246,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 46,
+            "max": [
+                -83.30000305175781,
+                69.19999694824219,
+                -1.899999976158142
+            ],
+            "min": [
+                -112.69999694824219,
+                59.79999923706055,
+                -1.899999976158142
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5126,
+            "count": 46,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5126,
+            "count": 46,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5125,
+            "count": 132,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 32,
+            "max": [
+                -107.9000015258789,
+                69.39999389648438,
+                7.989999771118164
+            ],
+            "min": [
+                -112.9000015258789,
+                64.4000015258789,
+                7.989999771118164
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5125,
+            "count": 90,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 54816,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 54816,
+            "byteOffset": 54816,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 66432,
+            "byteOffset": 109632
+        },
+        {
+            "buffer": 0,
+            "byteLength": 21144,
+            "byteOffset": 176064,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 21144,
+            "byteOffset": 197208,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 29064,
+            "byteOffset": 218352
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27144,
+            "byteOffset": 247416,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27144,
+            "byteOffset": 274560,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 44856,
+            "byteOffset": 301704
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100224,
+            "byteOffset": 346560,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100224,
+            "byteOffset": 446784,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 145872,
+            "byteOffset": 547008
+        },
+        {
+            "buffer": 0,
+            "byteLength": 366672,
+            "byteOffset": 692880,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 366672,
+            "byteOffset": 1059552,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 598248,
+            "byteOffset": 1426224
+        },
+        {
+            "buffer": 0,
+            "byteLength": 165540,
+            "byteOffset": 2024472,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 165540,
+            "byteOffset": 2190012,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 277476,
+            "byteOffset": 2355552
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1464,
+            "byteOffset": 2633028,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1464,
+            "byteOffset": 2634492,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1512,
+            "byteOffset": 2635956
+        },
+        {
+            "buffer": 0,
+            "byteLength": 972,
+            "byteOffset": 2637468,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 972,
+            "byteOffset": 2638440,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 648,
+            "byteOffset": 2639412,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 984,
+            "byteOffset": 2640060
+        },
+        {
+            "buffer": 0,
+            "byteLength": 552,
+            "byteOffset": 2641044,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 552,
+            "byteOffset": 2641596,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 368,
+            "byteOffset": 2642148,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 528,
+            "byteOffset": 2642516
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 2643044,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 2643428,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256,
+            "byteOffset": 2643812,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 2644068
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2644428,
+            "uri": "Huawei Matepad Pro resources/Huawei Matepad Pro.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 798.5736083984375,
+                "znear": 589.931396484375
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Huawei Matepad Pro resources/flower-4922148.jpg"
+        },
+        {
+            "uri": "Huawei Matepad Pro resources/Lens.jpg"
+        },
+        {
+            "uri": "Huawei Matepad Pro resources/front Lens.jpg"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.792156994342804,
+                    0.8196079730987549,
+                    0.9333329796791077,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.3
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.1490200012922287,
+                    0.24705900251865387,
+                    0.4156860113143921,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0022686899174004793,
+                    0.421424001455307,
+                    0.9024950265884399,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5500000007450581
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0022686899174004793,
+                    0.421424001455307,
+                    0.9024950265884399,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21,
+                        "TEXCOORD_0": 23
+                    },
+                    "indices": 24,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 26,
+                        "POSITION": 25,
+                        "TEXCOORD_0": 27
+                    },
+                    "indices": 28,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Huawei Matepad Pro-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 30,
+                        "POSITION": 29,
+                        "TEXCOORD_0": 31
+                    },
+                    "indices": 32,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.6705479115192831,
+                -1.408245853262713e-07,
+                -0.741866277081798,
+                0,
+                -0.09378213533856915,
+                0.9919776285351564,
+                -0.0847666980244753,
+                0,
+                0.7359147071838379,
+                0.12641392648220062,
+                0.6651684641838074,
+                0,
+                537.3202514648438,
+                188.32115173339844,
+                428.66937255859375,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 1,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 2,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 3,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 4,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 5,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 6,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 7,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 8,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "mesh": 9,
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "children": [
+                11
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.5,
+                79.5,
+                -2.994999885559082,
+                1
+            ],
+            "name": "Huawei Matepad Pro"
+        },
+        {
+            "children": [
+                12
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                13
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 2
+        }
+    ]
+}
+   
