@@ -1,23 +1,25 @@
 <template>
-<div>
+<div class="viewer">
   <!-- <div>
     <input type="color" v-model="setcolor">
     <button @click="changebutton">Update</button>
   </div> -->
+  
+  <div class="Previewer">
+    <div id="container"></div>
+  </div>
   <div class="products">
     <div v-for="(item, index) in products" :key="index" class="itemImg">
       <img  :src='item.img' @click="onChangeImage(index)" class="productImg" alt="">
-      <!-- <span>{{item.name}}</span> -->
     </div>
-    
-  </div>
-  <div class="Previewer">
-    <div id="container"></div>
   </div>
 </div>
   
 </template>
 <style scoped>
+.viewer{
+  display: flex;
+}
 #container {
   background-color: blue;
   width: 100%;
@@ -34,13 +36,14 @@
   height: 800px;
 }
 .products{
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
   overflow-wrap: anywhere;
-  width: 1200px;
+  height: 100%;
 }
 .itemImg{
   margin: 10px;
-  display: grid;
 }
 .productImg{
   width: 80px;
@@ -100,19 +103,19 @@ export default {
 
         this.scene = new Three.Scene();
 
-        // const ambientLight = new Three.AmbientLight( 0xcccccc, 0.4 );
+        // const ambientLight = new Three.AmbientLight( 0xffffff, 0.8 );
 				// this.scene.add( ambientLight );
 
-				// const pointLight = new Three.PointLight( 0xffffff, 0.8 );
-				// this.camera.add( pointLight );
+				const pointLight = new Three.PointLight( 0xffffff, 0.8 );
+				this.camera.add( pointLight );
 				// scene.add( camera );
-        // this.scene.background = new Three.Color(0xa0a0a0);
+        this.scene.background = new Three.Color(0xa0a0a0);
         new RGBELoader()
 					.load( 'royal_esplanade_1k.hdr', function ( texture ) {
 
 						texture.mapping = Three.EquirectangularReflectionMapping;
 
-						self.scene.background = texture;
+						// self.scene.background = texture;
 						self.scene.environment = texture;
 
 						self.render();
