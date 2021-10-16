@@ -4,13 +4,18 @@
     <input type="color" v-model="setcolor">
     <button @click="changebutton">Update</button>
   </div> -->
-  
+  <div>
+    <Autocomplete :items="selectItems" v-model="selected_prod" style="text-align: start;">
+    </Autocomplete>
+
+  </div>
   <div class="Previewer">
     <div id="container"></div>
   </div>
   <div class="products">
     <div v-for="(item, index) in products" :key="index" class="itemImg">
       <img  :src='item.img' @click="onChangeImage(index)" class="productImg" alt="">
+      <!-- <span>{{item.name}}</span> -->
     </div>
   </div>
 </div>
@@ -37,7 +42,7 @@
 }
 .products{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
   overflow-wrap: anywhere;
   height: 100%;
@@ -56,10 +61,18 @@ import * as Three from 'three'
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import Autocomplete from 'v-autocomplete'
+import 'v-autocomplete/dist/v-autocomplete.css'
+
+import Itemtemplate from './Itemtemplate.vue'
 
 export default {
+  components:{
+    Autocomplete,
+  },
   data() {
     return {
+      templatedev: Itemtemplate,
       camera: null,
       scene: null,
       renderer: null,
@@ -68,6 +81,7 @@ export default {
       controls: null,
       setcolor: null,
       loader: false,
+      selected_prod: '',
       products: [
         {name: 'Alcatel_Joy_Tab_2',  img: require('../assets/img/Alcatel_Joy_Tab_2.png')},
         {name: 'Amazon_fire_10', img: require('../assets/img/Amazon_fire_10.png')},
@@ -87,7 +101,24 @@ export default {
         {name: 'Lenovo_IdeaPad_Miix_520', img: require('../assets/img/Lenovo_IdeaPad_Miix_520.png')},
         {name: 'Lenovo_Miix_630', img: require('../assets/img/Lenovo_Miix_630.png')},
         {name: 'Lenovo_Tab_4_8', img: require('../assets/img/Lenovo_Tab_4_8.png')},
+        {name: 'Lenovo_ThinkPad_X1', img: require('../assets/img/Lenovo_ThinkPad_X1.png')},
+        {name: 'Lenovo_Yoga_Smart_Tab', img: require('../assets/img/Lenovo_Yoga_Smart_Tab.png')},
+        {name: 'Microsoft_Surface_Go', img: require('../assets/img/Microsoft_Surface_Go.png')},
+        {name: 'Microsoft_Surface_Pro_4', img: require('../assets/img/Microsoft_Surface_Pro_4.png')},
+        {name: 'Microsoft_Surface_Pro_8', img: require('../assets/img/Microsoft_Surface_Pro_8.png')},
+        {name: 'Onn_8_inch_tablet', img: require('../assets/img/Onn_8_inch_tablet.png')},
+        {name: 'Onyx_Boox_Max_Lumi', img: require('../assets/img/Onyx_Boox_Max_Lumi.png')},
+        {name: 'Samsung_Galaxy_Tab_A_8', img: require('../assets/img/Samsung_Galaxy_Tab_A_8.png')},
+        {name: 'Samsung_Galaxy_Tab_S2', img: require('../assets/img/Samsung_Galaxy_Tab_S2.png')},
+        {name: 'Samsung_Galaxy_Tab_S3', img: require('../assets/img/Samsung_Galaxy_Tab_S3.png')},
       ],
+    }
+  },
+  computed: {
+    selectItems(){
+      return this.products.map((item) => {
+        return item.name;
+      })
     }
   },
   methods: {
@@ -124,9 +155,9 @@ export default {
 
 						// const loader = new GLTFLoader().setPath('products/');
             const loader = new GLTFLoader().setPath('products/');
-						// loader.load( self.products[0].name+'.gltf', function ( gltf ) {
-            loader.load('Lenovo_Tab_4_8.gltf', function ( gltf ) {
-              gltf.scene.position.set(0, -2, 0 );
+						loader.load( self.products[0].name+'.gltf', function ( gltf ) {
+            // loader.load('Lenovo_Tab_4_8.gltf', function ( gltf ) {
+              gltf.scene.position.set(0, 0, 0 );
 							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
               gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
 							self.scene.add( gltf.scene );
@@ -169,6 +200,9 @@ export default {
     render() {
       this.renderer.render(this.scene, this.camera);
     },
+    getLabel(item){
+      return item.name;
+    }, 
     onChangeImage(index) {
       let self = this;
       self.loader = true;

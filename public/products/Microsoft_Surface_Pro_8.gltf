@@ -1,0 +1,1345 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 721,
+            "max": [
+                141.83822631835938,
+                101.53763580322266,
+                2.5
+            ],
+            "min": [
+                -141.838134765625,
+                -0.20000000298023224,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 721,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 1911,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 41400,
+            "max": [
+                143.65716552734375,
+                103.52416229248047,
+                9.300000190734863
+            ],
+            "min": [
+                -143.86273193359375,
+                -103.52416229248047,
+                -5.551115123125783e-17
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 41400,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 197721,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 1280,
+            "max": [
+                140.5,
+                45.67715072631836,
+                4.929999828338623
+            ],
+            "min": [
+                123.5,
+                16.002849578857422,
+                4.369999885559082
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 1280,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 6180,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 134,
+            "max": [
+                141.024169921875,
+                101.524169921875,
+                9.300000190734863
+            ],
+            "min": [
+                -141.024169921875,
+                -101.524169921875,
+                9.300000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 134,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 420,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 475,
+            "max": [
+                -131,
+                45.749996185302734,
+                7.25
+            ],
+            "min": [
+                -142.82403564453125,
+                42.250003814697266,
+                3.75
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 475,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 2307,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 2232,
+            "max": [
+                142.61370849609375,
+                103.47946166992188,
+                6.8795061111450195
+            ],
+            "min": [
+                -133.5,
+                -40,
+                3.289752960205078
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 2232,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 11016,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 892,
+            "max": [
+                37,
+                -92,
+                7.300000190734863
+            ],
+            "min": [
+                -37,
+                -102,
+                5.300000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 892,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 4128,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 792,
+            "max": [
+                16,
+                -102,
+                7.300000190734863
+            ],
+            "min": [
+                -16,
+                -102.5,
+                5.300000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 792,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 2340,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 1698,
+            "max": [
+                125,
+                103.52304077148438,
+                9.300000190734863
+            ],
+            "min": [
+                -125,
+                101.524169921875,
+                2.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 1698,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5125,
+            "count": 8577,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                136.024169921875,
+                91.524169921875,
+                9.300000190734863
+            ],
+            "min": [
+                -136.024169921875,
+                -91.524169921875,
+                9.300000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5126,
+            "count": 16,
+            "max": [
+                16,
+                -35.527610778808594,
+                0
+            ],
+            "min": [
+                -16,
+                -67.5276107788086,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5126,
+            "count": 16,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 33,
+            "componentType": 5125,
+            "count": 24,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 34,
+            "componentType": 5126,
+            "count": 45,
+            "max": [
+                4.987823486328125,
+                96.31382751464844,
+                0
+            ],
+            "min": [
+                -5,
+                86.3199234008789,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 35,
+            "componentType": 5126,
+            "count": 45,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 36,
+            "componentType": 5126,
+            "count": 45,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 37,
+            "componentType": 5125,
+            "count": 129,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 38,
+            "componentType": 5126,
+            "count": 28,
+            "max": [
+                2,
+                98.52416229248047,
+                9.300000190734863
+            ],
+            "min": [
+                -1.9999953508377075,
+                94.524169921875,
+                9.300000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 39,
+            "componentType": 5126,
+            "count": 28,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 40,
+            "componentType": 5126,
+            "count": 28,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 41,
+            "componentType": 5125,
+            "count": 78,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 42,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                31,
+                97.524169921875,
+                9.300000190734863
+            ],
+            "min": [
+                -31,
+                95.524169921875,
+                9.300000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 43,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 44,
+            "componentType": 5125,
+            "count": 108,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 45,
+            "componentType": 5126,
+            "count": 20,
+            "max": [
+                -29,
+                92.3168716430664,
+                0
+            ],
+            "min": [
+                -31,
+                90.3168716430664,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 46,
+            "componentType": 5126,
+            "count": 20,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 47,
+            "componentType": 5125,
+            "count": 54,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 8652,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8652,
+            "byteOffset": 8652,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7644,
+            "byteOffset": 17304
+        },
+        {
+            "buffer": 0,
+            "byteLength": 496800,
+            "byteOffset": 24948,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 496800,
+            "byteOffset": 521748,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 790884,
+            "byteOffset": 1018548
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15360,
+            "byteOffset": 1809432,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15360,
+            "byteOffset": 1824792,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24720,
+            "byteOffset": 1840152
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1608,
+            "byteOffset": 1864872,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1608,
+            "byteOffset": 1866480,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1680,
+            "byteOffset": 1868088
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5700,
+            "byteOffset": 1869768,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5700,
+            "byteOffset": 1875468,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 9228,
+            "byteOffset": 1881168
+        },
+        {
+            "buffer": 0,
+            "byteLength": 26784,
+            "byteOffset": 1890396,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 26784,
+            "byteOffset": 1917180,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 44064,
+            "byteOffset": 1943964
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10704,
+            "byteOffset": 1988028,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10704,
+            "byteOffset": 1998732,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 16512,
+            "byteOffset": 2009436
+        },
+        {
+            "buffer": 0,
+            "byteLength": 9504,
+            "byteOffset": 2025948,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 9504,
+            "byteOffset": 2035452,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 9360,
+            "byteOffset": 2044956
+        },
+        {
+            "buffer": 0,
+            "byteLength": 20376,
+            "byteOffset": 2054316,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 20376,
+            "byteOffset": 2074692,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 34308,
+            "byteOffset": 2095068
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 2129376,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 2129424,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 32,
+            "byteOffset": 2129472,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24,
+            "byteOffset": 2129504
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 2129528,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 2129720,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 96,
+            "byteOffset": 2129912
+        },
+        {
+            "buffer": 0,
+            "byteLength": 540,
+            "byteOffset": 2130008,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 540,
+            "byteOffset": 2130548,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 2131088,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 516,
+            "byteOffset": 2131448
+        },
+        {
+            "buffer": 0,
+            "byteLength": 336,
+            "byteOffset": 2131964,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 336,
+            "byteOffset": 2132300,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 2132636,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 312,
+            "byteOffset": 2132860
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 2133172,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 2133652,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 2134132
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 2134564,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 2134804,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 216,
+            "byteOffset": 2135044
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2135260,
+            "uri": "Microsoft Surface Pro 8 resources/Microsoft Surface Pro 8.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 782.0523681640625,
+                "znear": 738.919921875
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Microsoft Surface Pro 8 resources/windows-11-sunrise-theme.jpg"
+        },
+        {
+            "uri": "Microsoft Surface Pro 8 resources/lens (2).png"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.792156994342804,
+                    0.8196079730987549,
+                    0.9333329796791077,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    6.103610212448984e-05,
+                    0.4036009907722473,
+                    0.9231100082397461,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5750000029802322
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5019609928131104,
+                    0,
+                    0.5019609928131104,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6235290169715881,
+                    0.274509996175766,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.3
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5500000007450581
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21
+                    },
+                    "indices": 23,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 25,
+                        "POSITION": 24
+                    },
+                    "indices": 26,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 28,
+                        "POSITION": 27,
+                        "TEXCOORD_0": 29
+                    },
+                    "indices": 30,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 32,
+                        "POSITION": 31
+                    },
+                    "indices": 33,
+                    "material": 10,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 35,
+                        "POSITION": 34,
+                        "TEXCOORD_0": 36
+                    },
+                    "indices": 37,
+                    "material": 11,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 39,
+                        "POSITION": 38,
+                        "TEXCOORD_0": 40
+                    },
+                    "indices": 41,
+                    "material": 12,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 43,
+                        "POSITION": 42
+                    },
+                    "indices": 44,
+                    "material": 13,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Microsoft Surface Pro 8-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 46,
+                        "POSITION": 45
+                    },
+                    "indices": 47,
+                    "material": 14,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.9932277716164274,
+                -1.8227336195941746e-07,
+                0.11618335479237825,
+                0,
+                0.0002754435754128192,
+                0.9999971659760665,
+                -0.0023531420336115006,
+                0,
+                -0.11618302762508392,
+                0.0023692080285400152,
+                0.9932249784469604,
+                0,
+                -31.24062728881836,
+                109.26998901367188,
+                762.0054931640625,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 1,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 2,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 3,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 4,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 5,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 6,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 7,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 8,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 9,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 10,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 11,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 12,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 13,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "mesh": 14,
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "children": [
+                16
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.102783203125,
+                103.52416229248047,
+                -4.650000095367432,
+                1
+            ],
+            "name": "Microsoft Surface Pro 8"
+        },
+        {
+            "children": [
+                17
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                18
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 1
+        }
+    ]
+}
+  

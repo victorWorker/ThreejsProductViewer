@@ -1,0 +1,686 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 1773,
+            "max": [
+                81.49967193603516,
+                154.51361083984375,
+                5.5
+            ],
+            "min": [
+                -28.339963912963867,
+                -154.792236328125,
+                2.2200000286102295
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 1773,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 8223,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 22575,
+            "max": [
+                114,
+                156,
+                7
+            ],
+            "min": [
+                -114,
+                -155,
+                -4.440892098500626e-16
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 22575,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 120360,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 590,
+            "max": [
+                9.997431755065918,
+                -140,
+                8
+            ],
+            "min": [
+                -9.997431755065918,
+                -147,
+                7.800000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 590,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 2736,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 10934,
+            "max": [
+                113,
+                154,
+                8
+            ],
+            "min": [
+                -113,
+                -154,
+                7
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 10934,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 57318,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 748,
+            "max": [
+                111,
+                -135,
+                8
+            ],
+            "min": [
+                -111,
+                -152,
+                7.800000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 748,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 3246,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 32,
+            "max": [
+                98,
+                143,
+                8
+            ],
+            "min": [
+                -102,
+                -125,
+                8
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5125,
+            "count": 90,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 3209,
+            "max": [
+                54,
+                -140,
+                7
+            ],
+            "min": [
+                -54,
+                -155,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5126,
+            "count": 3209,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5125,
+            "count": 16110,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 21276,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 21276,
+            "byteOffset": 21276,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 32892,
+            "byteOffset": 42552
+        },
+        {
+            "buffer": 0,
+            "byteLength": 270900,
+            "byteOffset": 75444,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 270900,
+            "byteOffset": 346344,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 481440,
+            "byteOffset": 617244
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7080,
+            "byteOffset": 1098684,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7080,
+            "byteOffset": 1105764,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10944,
+            "byteOffset": 1112844
+        },
+        {
+            "buffer": 0,
+            "byteLength": 131208,
+            "byteOffset": 1123788,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 131208,
+            "byteOffset": 1254996,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 229272,
+            "byteOffset": 1386204
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8976,
+            "byteOffset": 1615476,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8976,
+            "byteOffset": 1624452,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 12984,
+            "byteOffset": 1633428
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 1646412,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 1646796,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256,
+            "byteOffset": 1647180,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 1647436
+        },
+        {
+            "buffer": 0,
+            "byteLength": 38508,
+            "byteOffset": 1647796,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 38508,
+            "byteOffset": 1686304,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 64440,
+            "byteOffset": 1724812
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1789252,
+            "uri": "Onyx Boox Max Lumi resources/Onyx Boox Max Lumi.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 905.8224487304688,
+                "znear": 773.6682739257812
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Onyx Boox Max Lumi resources/141213.jpg"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    5.2943801165383775e-06,
+                    0.16666699945926666,
+                    0.5,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5750000029802322
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.1254899948835373,
+                    0.21568599343299866,
+                    0.1647060066461563,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.3
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.05128204822540283,
+                    0.05108172819018364,
+                    0.05108172819018364,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.21568599343299866,
+                    0.2588239908218384,
+                    0.2901960015296936,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Onyx Boox Max Lumi-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onyx Boox Max Lumi-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onyx Boox Max Lumi-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onyx Boox Max Lumi-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onyx Boox Max Lumi-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onyx Boox Max Lumi-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15,
+                        "TEXCOORD_0": 17
+                    },
+                    "indices": 18,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onyx Boox Max Lumi-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 20,
+                        "POSITION": 19
+                    },
+                    "indices": 21,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.9678739588951066,
+                -1.7954552489207742e-07,
+                -0.25143590346609335,
+                0,
+                -0.05553469660123919,
+                0.9753030920983327,
+                -0.21377520483678258,
+                0,
+                0.24522624909877777,
+                0.22087086737155914,
+                0.9439704418182373,
+                0,
+                219.7914581298828,
+                371.7593688964844,
+                792.41943359375,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "mesh": 1,
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "mesh": 2,
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "mesh": 3,
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "mesh": 4,
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "mesh": 5,
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "mesh": 6,
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "children": [
+                8
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                200,
+                -4,
+                1
+            ],
+            "name": "Onyx Boox Max Lumi"
+        },
+        {
+            "children": [
+                9
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                10
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        }
+    ]
+}
+ 

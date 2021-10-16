@@ -1,0 +1,962 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 573,
+            "max": [
+                43.25,
+                105.19999694824219,
+                4.176436424255371
+            ],
+            "min": [
+                20.5,
+                90.4000015258789,
+                0.6764364838600159
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 573,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 2748,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 9926,
+            "max": [
+                63.5,
+                105.4000015258789,
+                4.7792744636535645
+            ],
+            "min": [
+                -64.5,
+                -105.4000015258789,
+                2.42861286636753e-16
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 9926,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 41817,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 9490,
+            "max": [
+                -24.149999618530273,
+                -87.65254974365234,
+                6.599999904632568
+            ],
+            "min": [
+                -48.849998474121094,
+                -90.74745178222656,
+                3.5999999046325684
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 9490,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 39420,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 15994,
+            "max": [
+                63.5,
+                105.4000015258789,
+                6.699999809265137
+            ],
+            "min": [
+                -63.5,
+                -105.4000015258789,
+                3.780196189880371
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 15994,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 80661,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 332,
+            "max": [
+                3.1671500205993652,
+                -95.4000015258789,
+                2.7064363956451416
+            ],
+            "min": [
+                -3.1671500205993652,
+                -103.4000015258789,
+                2.1464364528656006
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 332,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 1506,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 797,
+            "max": [
+                4.167474269866943,
+                -95.4000015258789,
+                3.7064363956451416
+            ],
+            "min": [
+                -13.228103637695312,
+                -105.4000015258789,
+                1.1464364528656006
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 797,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 3825,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 12520,
+            "max": [
+                63.5,
+                105.4000015258789,
+                -3.469446951953614e-17
+            ],
+            "min": [
+                -63.5,
+                -105.4000015258789,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 12520,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 59622,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                -33.59928512573242,
+                100.21199035644531,
+                6.699999809265137
+            ],
+            "min": [
+                -48.40071487426758,
+                93.49137115478516,
+                6.699999809265137
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5125,
+            "count": 114,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                56.5,
+                87.4000015258789,
+                -1
+            ],
+            "min": [
+                -56.5,
+                -87.4000015258789,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 28,
+            "max": [
+                1.9999953508377075,
+                98.39999389648438,
+                -1
+            ],
+            "min": [
+                -2,
+                94.4000015258789,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5126,
+            "count": 28,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5126,
+            "count": 28,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5125,
+            "count": 78,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 6876,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6876,
+            "byteOffset": 6876,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10992,
+            "byteOffset": 13752
+        },
+        {
+            "buffer": 0,
+            "byteLength": 119112,
+            "byteOffset": 24744,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 119112,
+            "byteOffset": 143856,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 167268,
+            "byteOffset": 262968
+        },
+        {
+            "buffer": 0,
+            "byteLength": 113880,
+            "byteOffset": 430236,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 113880,
+            "byteOffset": 544116,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 157680,
+            "byteOffset": 657996
+        },
+        {
+            "buffer": 0,
+            "byteLength": 191928,
+            "byteOffset": 815676,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 191928,
+            "byteOffset": 1007604,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 322644,
+            "byteOffset": 1199532
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3984,
+            "byteOffset": 1522176,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3984,
+            "byteOffset": 1526160,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6024,
+            "byteOffset": 1530144
+        },
+        {
+            "buffer": 0,
+            "byteLength": 9564,
+            "byteOffset": 1536168,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 9564,
+            "byteOffset": 1545732,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15300,
+            "byteOffset": 1555296
+        },
+        {
+            "buffer": 0,
+            "byteLength": 150240,
+            "byteOffset": 1570596,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 150240,
+            "byteOffset": 1720836,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 238488,
+            "byteOffset": 1871076
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 2109564,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 2110044,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 2110524,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 456,
+            "byteOffset": 2110844
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 2111300,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 2111348,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 32,
+            "byteOffset": 2111396,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24,
+            "byteOffset": 2111428
+        },
+        {
+            "buffer": 0,
+            "byteLength": 336,
+            "byteOffset": 2111452,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 336,
+            "byteOffset": 2111788,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 2112124,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 312,
+            "byteOffset": 2112348
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2112660,
+            "uri": "Onn 8 inch tablet resources/Onn 8 inch tablet.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 650.8862915039062,
+                "znear": 497.246826171875
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Onn 8 inch tablet resources/Lens2.jpg"
+        },
+        {
+            "uri": "Onn 8 inch tablet resources/walmart-onn-screen-2-800x1280.jpg"
+        },
+        {
+            "uri": "Onn 8 inch tablet resources/lens (2).png"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.3
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.025060094892978668,
+                    0.029630407691001892,
+                    0.04615384340286255,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.625
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.049358971416950226,
+                    0.07422008365392685,
+                    0.16410255432128906,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.625
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.002265610033646226,
+                    0.4214169979095459,
+                    0.9024999737739563,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5019609928131104,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21,
+                        "TEXCOORD_0": 23
+                    },
+                    "indices": 24,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 26,
+                        "POSITION": 25,
+                        "TEXCOORD_0": 27
+                    },
+                    "indices": 28,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Onn 8 inch tablet-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 30,
+                        "POSITION": 29,
+                        "TEXCOORD_0": 31
+                    },
+                    "indices": 32,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                -0.7164921286985946,
+                -1.8266416645928985e-07,
+                0.6975952031519519,
+                0,
+                0.2091138711020275,
+                0.9540133983402499,
+                0.21477873734421504,
+                0,
+                -0.6655151844024658,
+                0.29976409673690796,
+                -0.6835430264472961,
+                0,
+                -385.027099609375,
+                382.4674377441406,
+                -384.947265625,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 1,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 2,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 3,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 4,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 5,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 6,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 7,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 8,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "mesh": 9,
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "children": [
+                11
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.5,
+                200,
+                -2.85,
+                1
+            ],
+            "name": "Onn 8 inch tablet"
+        },
+        {
+            "children": [
+                12
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                13
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 2
+        }
+    ]
+}
