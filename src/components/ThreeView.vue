@@ -5,9 +5,6 @@
     <button @click="changebutton">Update</button>
   </div> -->
   <div>
-    <Autocomplete :items="selectItems" v-model="selected_prod" style="text-align: start;">
-    </Autocomplete>
-
   </div>
   <div class="Previewer">
     <div id="container"></div>
@@ -42,7 +39,7 @@
 }
 .products{
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   grid-gap: 10px;
   overflow-wrap: anywhere;
   height: 100%;
@@ -61,15 +58,15 @@ import * as Three from 'three'
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import Autocomplete from 'v-autocomplete'
-import 'v-autocomplete/dist/v-autocomplete.css'
+// import Autocomplete from 'v-autocomplete'
+// import 'v-autocomplete/dist/v-autocomplete.css'
 
 import Itemtemplate from './Itemtemplate.vue'
 
 export default {
-  components:{
-    Autocomplete,
-  },
+  // components:{
+  //   Autocomplete,
+  // },
   data() {
     return {
       templatedev: Itemtemplate,
@@ -111,6 +108,16 @@ export default {
         {name: 'Samsung_Galaxy_Tab_A_8', img: require('../assets/img/Samsung_Galaxy_Tab_A_8.png')},
         {name: 'Samsung_Galaxy_Tab_S2', img: require('../assets/img/Samsung_Galaxy_Tab_S2.png')},
         {name: 'Samsung_Galaxy_Tab_S3', img: require('../assets/img/Samsung_Galaxy_Tab_S3.png')},
+        {name: 'Apple_iPad_2nd_generation', img: require('../assets/img/Apple_iPad_2nd_generation.png')},
+        {name: 'Lenovo_Tab_M10_Plus', img: require('../assets/img/Lenovo_Tab_M10_Plus.png')},
+        {name: 'Samsung_Galaxy_Tab_A7_10', img: require('../assets/img/Samsung_Galaxy_Tab_A7_10.png')},
+        {name: 'Samsung_Galaxy_Tab_A7_Lite_8', img: require('../assets/img/Samsung_Galaxy_Tab_A7_Lite_8.png')},
+        {name: 'Samsung_Galaxy_Tab_Active_3_8', img: require('../assets/img/Samsung_Galaxy_Tab_Active_3_8.png')},
+        {name: 'Samsung_Galaxy_Tab_S4', img: require('../assets/img/Samsung_Galaxy_Tab_S4.png')},
+        {name: 'Samsung_Galaxy_Tab_S5E', img: require('../assets/img/Samsung_Galaxy_Tab_S5E.png')},
+        {name: 'Samsung_Galaxy_Tab_S6', img: require('../assets/img/Samsung_Galaxy_Tab_S6.png')},
+        {name: 'Samsung_Galaxy_Tab_S6_Lite', img: require('../assets/img/Samsung_Galaxy_Tab_S6_Lite.png')},
+        {name: 'Samsung_Galaxy_Tab_S7_Plus', img: require('../assets/img/Samsung_Galaxy_Tab_S7_Plus.png')},
       ],
     }
   },

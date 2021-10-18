@@ -1,0 +1,1579 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 2540,
+            "max": [
+                76.6500015258789,
+                114.0999984741211,
+                6.199999809265137
+            ],
+            "min": [
+                -76.6500015258789,
+                -114.0999984741211,
+                0.10000000149011612
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 2540,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 7320,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 1841,
+            "max": [
+                76.6500015258789,
+                42.599998474121094,
+                5.599999904632568
+            ],
+            "min": [
+                66.6500015258789,
+                -29.89743423461914,
+                2.5999999046325684
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 1841,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 8913,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 6962,
+            "max": [
+                77.1500015258789,
+                114,
+                6.199999809265137
+            ],
+            "min": [
+                -76.6500015258789,
+                -114,
+                -2.220446049250313e-16
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 6962,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 31347,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 8962,
+            "max": [
+                76.6500015258789,
+                122.0999984741211,
+                6.199999809265137
+            ],
+            "min": [
+                -76.6500015258789,
+                -122.0999984741211,
+                -2.220446049250313e-16
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 8962,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 41394,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 264,
+            "max": [
+                -76.1500015258789,
+                2.75,
+                5.099999904632568
+            ],
+            "min": [
+                -76.6500015258789,
+                -2.75,
+                3.0999999046325684
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 264,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 780,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 199,
+            "max": [
+                -76.1500015258789,
+                3,
+                5.349999904632568
+            ],
+            "min": [
+                -76.6500015258789,
+                -3,
+                2.8499999046325684
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 199,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 582,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 692,
+            "max": [
+                -68.6500015258789,
+                18,
+                5.099999904632568
+            ],
+            "min": [
+                -76.6500015258789,
+                -18,
+                3.0999999046325684
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 692,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 3024,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 8224,
+            "max": [
+                75.6500015258789,
+                121.0999984741211,
+                7.900000095367432
+            ],
+            "min": [
+                -75.6500015258789,
+                -121.0999984741211,
+                7.352786540985107
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 8224,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 35562,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 12536,
+            "max": [
+                76.6500015258789,
+                122.0999984741211,
+                7.552070140838623
+            ],
+            "min": [
+                -76.6500015258789,
+                -122.0999984741211,
+                6.199999809265137
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 12536,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5125,
+            "count": 63654,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5126,
+            "count": 661,
+            "max": [
+                66.1500015258789,
+                111.5975112915039,
+                0
+            ],
+            "min": [
+                51.150001525878906,
+                96.60248565673828,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 661,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5125,
+            "count": 1983,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5126,
+            "count": 7713,
+            "max": [
+                65.45429229736328,
+                122.0999984741211,
+                5.349999904632568
+            ],
+            "min": [
+                -4.169283866882324,
+                -122.0999984741211,
+                1.7200000286102295
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5126,
+            "count": 7713,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5125,
+            "count": 38796,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 33,
+            "componentType": 5126,
+            "count": 332,
+            "max": [
+                3.1671500205993652,
+                -112.0999984741211,
+                3.2799999713897705
+            ],
+            "min": [
+                -3.1671500205993652,
+                -120.0999984741211,
+                2.7200000286102295
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 34,
+            "componentType": 5126,
+            "count": 332,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 35,
+            "componentType": 5125,
+            "count": 1506,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 36,
+            "componentType": 5126,
+            "count": 170,
+            "max": [
+                -68.0539321899414,
+                77.15248107910156,
+                0
+            ],
+            "min": [
+                -72.11792755126953,
+                57.643192291259766,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 37,
+            "componentType": 5126,
+            "count": 170,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 38,
+            "componentType": 5125,
+            "count": 492,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 39,
+            "componentType": 5126,
+            "count": 173,
+            "max": [
+                -66.6500015258789,
+                82.0999984741211,
+                0
+            ],
+            "min": [
+                -73.6500015258789,
+                52.099998474121094,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 40,
+            "componentType": 5126,
+            "count": 173,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 41,
+            "componentType": 5125,
+            "count": 534,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 42,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                70.6500015258789,
+                112.0999984741211,
+                7.900000095367432
+            ],
+            "min": [
+                -70.6500015258789,
+                -112.0999984741211,
+                7.900000095367432
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 43,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 44,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 45,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 46,
+            "componentType": 5126,
+            "count": 382,
+            "max": [
+                65.25,
+                110.69749450683594,
+                -0.8999999761581421
+            ],
+            "min": [
+                52.04999923706055,
+                97.50250244140625,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 47,
+            "componentType": 5126,
+            "count": 382,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 48,
+            "componentType": 5125,
+            "count": 1170,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 49,
+            "componentType": 5126,
+            "count": 20,
+            "max": [
+                1,
+                118.0999984741211,
+                7.900000095367432
+            ],
+            "min": [
+                -1,
+                116.0999984741211,
+                7.900000095367432
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 50,
+            "componentType": 5126,
+            "count": 20,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 51,
+            "componentType": 5126,
+            "count": 20,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 52,
+            "componentType": 5125,
+            "count": 54,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 53,
+            "componentType": 5126,
+            "count": 32,
+            "max": [
+                61.25,
+                106.69999694824219,
+                -0.8999999761581421
+            ],
+            "min": [
+                56.04999923706055,
+                101.5,
+                -0.8999999761581421
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 54,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 55,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 56,
+            "componentType": 5125,
+            "count": 90,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 30480,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 30480,
+            "byteOffset": 30480,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 29280,
+            "byteOffset": 60960
+        },
+        {
+            "buffer": 0,
+            "byteLength": 22092,
+            "byteOffset": 90240,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 22092,
+            "byteOffset": 112332,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 35652,
+            "byteOffset": 134424
+        },
+        {
+            "buffer": 0,
+            "byteLength": 83544,
+            "byteOffset": 170076,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 83544,
+            "byteOffset": 253620,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 125388,
+            "byteOffset": 337164
+        },
+        {
+            "buffer": 0,
+            "byteLength": 107544,
+            "byteOffset": 462552,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 107544,
+            "byteOffset": 570096,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 165576,
+            "byteOffset": 677640
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3168,
+            "byteOffset": 843216,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3168,
+            "byteOffset": 846384,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3120,
+            "byteOffset": 849552
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2388,
+            "byteOffset": 852672,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2388,
+            "byteOffset": 855060,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2328,
+            "byteOffset": 857448
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8304,
+            "byteOffset": 859776,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8304,
+            "byteOffset": 868080,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 12096,
+            "byteOffset": 876384
+        },
+        {
+            "buffer": 0,
+            "byteLength": 98688,
+            "byteOffset": 888480,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 98688,
+            "byteOffset": 987168,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 142248,
+            "byteOffset": 1085856
+        },
+        {
+            "buffer": 0,
+            "byteLength": 150432,
+            "byteOffset": 1228104,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 150432,
+            "byteOffset": 1378536,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 254616,
+            "byteOffset": 1528968
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7932,
+            "byteOffset": 1783584,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7932,
+            "byteOffset": 1791516,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7932,
+            "byteOffset": 1799448
+        },
+        {
+            "buffer": 0,
+            "byteLength": 92556,
+            "byteOffset": 1807380,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 92556,
+            "byteOffset": 1899936,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 155184,
+            "byteOffset": 1992492
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3984,
+            "byteOffset": 2147676,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3984,
+            "byteOffset": 2151660,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6024,
+            "byteOffset": 2155644
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2040,
+            "byteOffset": 2161668,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2040,
+            "byteOffset": 2163708,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1968,
+            "byteOffset": 2165748
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2076,
+            "byteOffset": 2167716,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2076,
+            "byteOffset": 2169792,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2136,
+            "byteOffset": 2171868
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 2174004,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 2174052,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 32,
+            "byteOffset": 2174100,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24,
+            "byteOffset": 2174132
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4584,
+            "byteOffset": 2174156,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4584,
+            "byteOffset": 2178740,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4680,
+            "byteOffset": 2183324
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 2188004,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 2188244,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 160,
+            "byteOffset": 2188484,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 216,
+            "byteOffset": 2188644
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 2188860,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 2189244,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256,
+            "byteOffset": 2189628,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 2189884
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2190244,
+            "uri": "Lenovo Tab M10 Plus resources/Lenovo Tab M10 Plus.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 920.6509399414062,
+                "znear": 848.350341796875
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Lenovo Tab M10 Plus resources/wp5951437.png"
+        },
+        {
+            "uri": "Lenovo Tab M10 Plus resources/l2.png"
+        },
+        {
+            "uri": "Lenovo Tab M10 Plus resources/l1.png"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.792156994342804,
+                    0.8196079730987549,
+                    0.9333329796791077,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2509799897670746,
+                    0.2509799897670746,
+                    0.2509799897670746,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8274509906768799,
+                    0.8431370258331299,
+                    0.8666669726371765,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2980389893054962,
+                    0.3058820068836212,
+                    0.313726007938385,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7725489735603333,
+                    0.5725489854812622,
+                    0.09019610285758972,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5150229930877686,
+                    0.5150229930877686,
+                    0.5150219798088074,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5750000029802322
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.21568599343299866,
+                    0.2588239908218384,
+                    0.2901960015296936,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.3641025424003601,
+                    0.3641025424003601,
+                    0.3641025424003601,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.3641025424003601,
+                    0.3641025424003601,
+                    0.3641025424003601,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5500000007450581
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    6.103610212448984e-05,
+                    0.4036009907722473,
+                    0.9231100082397461,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5750000029802322
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.4358974099159241,
+                    0.4358974099159241,
+                    0.4358974099159241,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5500000007450581
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21
+                    },
+                    "indices": 23,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 25,
+                        "POSITION": 24
+                    },
+                    "indices": 26,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 28,
+                        "POSITION": 27
+                    },
+                    "indices": 29,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 31,
+                        "POSITION": 30
+                    },
+                    "indices": 32,
+                    "material": 10,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 34,
+                        "POSITION": 33
+                    },
+                    "indices": 35,
+                    "material": 11,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 37,
+                        "POSITION": 36
+                    },
+                    "indices": 38,
+                    "material": 12,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 40,
+                        "POSITION": 39
+                    },
+                    "indices": 41,
+                    "material": 13,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 43,
+                        "POSITION": 42,
+                        "TEXCOORD_0": 44
+                    },
+                    "indices": 45,
+                    "material": 14,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 47,
+                        "POSITION": 46
+                    },
+                    "indices": 48,
+                    "material": 15,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 50,
+                        "POSITION": 49,
+                        "TEXCOORD_0": 51
+                    },
+                    "indices": 52,
+                    "material": 16,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Lenovo Tab M10 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 54,
+                        "POSITION": 53,
+                        "TEXCOORD_0": 55
+                    },
+                    "indices": 56,
+                    "material": 17,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                -0.9559051091944484,
+                -1.841581160899608e-07,
+                -0.2936758889188282,
+                0,
+                -0.0225908043958642,
+                0.9970370635785915,
+                0.0735316808262744,
+                0,
+                0.2928057014942169,
+                0.0769236758351326,
+                -0.953072726726532,
+                0,
+                281.9692077636719,
+                220.2958526611328,
+                -835.7505493164062,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 1,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 2,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 3,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 4,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 5,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 6,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 7,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 8,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 9,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 10,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 11,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 12,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 13,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 14,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 15,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 16,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "mesh": 17,
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ],
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "children": [
+                19
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.25,
+                150,
+                -3.45,
+                1
+            ],
+            "name": "Lenovo Tab M10 Plus"
+        },
+        {
+            "children": [
+                20
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                21
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 2
+        }
+    ]
+}
+ 

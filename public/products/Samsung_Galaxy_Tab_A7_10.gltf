@@ -1,0 +1,1194 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 304,
+            "max": [
+                123.80000305175781,
+                68.69999694824219,
+                6
+            ],
+            "min": [
+                -123.80000305175781,
+                60.54999923706055,
+                0.10000000149011612
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 304,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 846,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 21362,
+            "max": [
+                123.80000305175781,
+                79.69999694824219,
+                6
+            ],
+            "min": [
+                -123.80000305175781,
+                -78.69999694824219,
+                -0.8333333134651184
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 21362,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 99453,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 2284,
+            "max": [
+                -101.7860107421875,
+                66.7139892578125,
+                -0.8333333134651184
+            ],
+            "min": [
+                -113.8139877319336,
+                54.686012268066406,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 2284,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 10716,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 368,
+            "max": [
+                123.80000305175781,
+                78.69999694824219,
+                7
+            ],
+            "min": [
+                -123.80000305175781,
+                -78.69999694824219,
+                6
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 368,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 1056,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 2402,
+            "max": [
+                20.242727279663086,
+                4.960330486297607,
+                4.163336342344337e-17
+            ],
+            "min": [
+                -18.873271942138672,
+                -1.025986909866333,
+                -0.10000000149011612
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 2402,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 6519,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 16478,
+            "max": [
+                123.80000305175781,
+                50.70000076293945,
+                5.249623775482178
+            ],
+            "min": [
+                -123.80000305175781,
+                -78.5,
+                1.7502397298812866
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 16478,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 76683,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 332,
+            "max": [
+                121.80000305175781,
+                3.1671500205993652,
+                3.7799999713897705
+            ],
+            "min": [
+                113.80000305175781,
+                -3.1671500205993652,
+                3.2200000286102295
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 332,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 1506,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 138,
+            "max": [
+                122.80000305175781,
+                77.69999694824219,
+                7
+            ],
+            "min": [
+                -122.80000305175781,
+                -77.69999694824219,
+                7
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 138,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 426,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                114.80000305175781,
+                69.69999694824219,
+                7
+            ],
+            "min": [
+                -114.80000305175781,
+                -69.69999694824219,
+                7
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5125,
+            "count": 114,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 56,
+            "max": [
+                -102.30000305175781,
+                66.19999694824219,
+                -0.8999999761581421
+            ],
+            "min": [
+                -113.30000305175781,
+                55.20000076293945,
+                -0.8999999761581421
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 56,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5125,
+            "count": 168,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5126,
+            "count": 20,
+            "max": [
+                11,
+                74.69999694824219,
+                7
+            ],
+            "min": [
+                9,
+                72.69999694824219,
+                7
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5126,
+            "count": 20,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 33,
+            "componentType": 5125,
+            "count": 54,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 34,
+            "componentType": 5126,
+            "count": 22,
+            "max": [
+                1.25,
+                74.93729400634766,
+                7
+            ],
+            "min": [
+                -1.2499921321868896,
+                72.46271514892578,
+                7
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 35,
+            "componentType": 5126,
+            "count": 22,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 36,
+            "componentType": 5126,
+            "count": 22,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 37,
+            "componentType": 5125,
+            "count": 60,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 38,
+            "componentType": 5126,
+            "count": 28,
+            "max": [
+                -105.80000305175781,
+                62.69999313354492,
+                -0.8999999761581421
+            ],
+            "min": [
+                -109.80000305175781,
+                58.70000076293945,
+                -0.8999999761581421
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 39,
+            "componentType": 5126,
+            "count": 28,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 40,
+            "componentType": 5126,
+            "count": 28,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 41,
+            "componentType": 5125,
+            "count": 78,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 3648,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3648,
+            "byteOffset": 3648,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3384,
+            "byteOffset": 7296
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256344,
+            "byteOffset": 10680,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256344,
+            "byteOffset": 267024,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 397812,
+            "byteOffset": 523368
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27408,
+            "byteOffset": 921180,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27408,
+            "byteOffset": 948588,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 42864,
+            "byteOffset": 975996
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4416,
+            "byteOffset": 1018860,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4416,
+            "byteOffset": 1023276,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4224,
+            "byteOffset": 1027692
+        },
+        {
+            "buffer": 0,
+            "byteLength": 28824,
+            "byteOffset": 1031916,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 28824,
+            "byteOffset": 1060740,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 26076,
+            "byteOffset": 1089564
+        },
+        {
+            "buffer": 0,
+            "byteLength": 197736,
+            "byteOffset": 1115640,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 197736,
+            "byteOffset": 1313376,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 306732,
+            "byteOffset": 1511112
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3984,
+            "byteOffset": 1817844,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3984,
+            "byteOffset": 1821828,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6024,
+            "byteOffset": 1825812
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1656,
+            "byteOffset": 1831836,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1656,
+            "byteOffset": 1833492,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1704,
+            "byteOffset": 1835148
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 1836852,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 1837332,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 320,
+            "byteOffset": 1837812,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 456,
+            "byteOffset": 1838132
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 1838588,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 1839260,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 672,
+            "byteOffset": 1839932
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 1840604,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 1840844,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 216,
+            "byteOffset": 1841084
+        },
+        {
+            "buffer": 0,
+            "byteLength": 264,
+            "byteOffset": 1841300,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 264,
+            "byteOffset": 1841564,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 176,
+            "byteOffset": 1841828,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 240,
+            "byteOffset": 1842004
+        },
+        {
+            "buffer": 0,
+            "byteLength": 336,
+            "byteOffset": 1842244,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 336,
+            "byteOffset": 1842580,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 224,
+            "byteOffset": 1842916,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 312,
+            "byteOffset": 1843140
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1843452,
+            "uri": "Samsung Galaxy Tab A7 10 resources/Samsung Galaxy Tab A7 10.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 1344.6834716796875,
+                "znear": 1107.5556640625
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Samsung Galaxy Tab A7 10 resources/Screenshot_20201019-183845_One-UI-Home-1024x614.jpg"
+        },
+        {
+            "uri": "Samsung Galaxy Tab A7 10 resources/l2.png"
+        },
+        {
+            "uri": "Samsung Galaxy Tab A7 10 resources/lens (2).png"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.792156994342804,
+                    0.8196079730987549,
+                    0.9333329796791077,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 1
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5150229930877686,
+                    0.5150229930877686,
+                    0.5150219798088074,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5750000029802322
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.17435896396636963,
+                    0.17435896396636963,
+                    0.17435896396636963,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.1846153736114502,
+                    0.1846153736114502,
+                    0.1846153736114502,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.002265610033646226,
+                    0.4214169979095459,
+                    0.9024999737739563,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0923076868057251,
+                    0.0923076868057251,
+                    0.0923076868057251,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21
+                    },
+                    "indices": 23,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 25,
+                        "POSITION": 24,
+                        "TEXCOORD_0": 26
+                    },
+                    "indices": 27,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 29,
+                        "POSITION": 28
+                    },
+                    "indices": 30,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 32,
+                        "POSITION": 31
+                    },
+                    "indices": 33,
+                    "material": 10,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 35,
+                        "POSITION": 34,
+                        "TEXCOORD_0": 36
+                    },
+                    "indices": 37,
+                    "material": 11,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab A7 10.4-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 39,
+                        "POSITION": 38,
+                        "TEXCOORD_0": 40
+                    },
+                    "indices": 41,
+                    "material": 12,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                -0.5948225324851291,
+                -1.8893071551673302e-07,
+                -0.8038570369922273,
+                0,
+                -0.20252958596028947,
+                0.967740966260974,
+                0.14986368576037692,
+                0,
+                0.7779253721237183,
+                0.2519471347332001,
+                -0.5756341814994812,
+                0,
+                888.4769897460938,
+                464.0196228027344,
+                -760.8939208984375,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 1,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 2,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 3,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 4,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 5,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 6,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 7,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 8,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 9,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 10,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 11,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "mesh": 12,
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "children": [
+                14
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                78.69999694824219,
+                -3,
+                1
+            ],
+            "name": "Samsung Galaxy Tab A7 10.4"
+        },
+        {
+            "children": [
+                15
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                16
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 2
+        }
+    ]
+}
+  

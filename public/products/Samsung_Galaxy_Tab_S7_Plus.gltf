@@ -1,0 +1,1271 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 50503,
+            "max": [
+                142.5,
+                5.699999809265137,
+                92.5
+            ],
+            "min": [
+                -142.5,
+                -1.1102230246251565e-16,
+                -92.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 50503,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 240858,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 360,
+            "max": [
+                80,
+                3.3499999046325684,
+                5.497261047363281
+            ],
+            "min": [
+                -140.5,
+                2.3499999046325684,
+                -91.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 360,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 1494,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 1334,
+            "max": [
+                127.49742889404297,
+                0.009999999776482582,
+                79.5
+            ],
+            "min": [
+                97.50257110595703,
+                -1,
+                69.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 1334,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 6258,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 1539,
+            "max": [
+                81,
+                3.8499999046325684,
+                93.5
+            ],
+            "min": [
+                39,
+                1.850000023841858,
+                92.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 1539,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 6816,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 1470,
+            "max": [
+                -95.08264923095703,
+                2.3549047872163998e-17,
+                75.68324279785156
+            ],
+            "min": [
+                -117.43464660644531,
+                -0.009999999776482582,
+                72.26252746582031
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 1470,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 4581,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 704,
+            "max": [
+                142.49000549316406,
+                5.690000057220459,
+                92.48999786376953
+            ],
+            "min": [
+                -142.49000549316406,
+                0.009999999776482582,
+                -92.48999786376953
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 704,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 1920,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 298,
+            "max": [
+                9.257914543151855,
+                0,
+                -58.9988899230957
+            ],
+            "min": [
+                -6.962142467498779,
+                0,
+                -70.43556213378906
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 298,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 858,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 160,
+            "max": [
+                141.5,
+                5.599999904632568,
+                91.5
+            ],
+            "min": [
+                -141.5,
+                5.599999904632568,
+                -91.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 160,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 498,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 32,
+            "max": [
+                134.5,
+                5.590000152587891,
+                84.5
+            ],
+            "min": [
+                -134.5,
+                5.590000152587891,
+                -84.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5125,
+            "count": 90,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 44,
+            "max": [
+                126.98741912841797,
+                -1,
+                79
+            ],
+            "min": [
+                98.01258087158203,
+                -1,
+                70
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 44,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5126,
+            "count": 44,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5125,
+            "count": 126,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5126,
+            "count": 46,
+            "max": [
+                102.5,
+                0.009999999776482582,
+                79.5
+            ],
+            "min": [
+                -52.499996185302734,
+                0.009999999776482582,
+                69.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 33,
+            "componentType": 5126,
+            "count": 46,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 34,
+            "componentType": 5125,
+            "count": 132,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 35,
+            "componentType": 5126,
+            "count": 60,
+            "max": [
+                4,
+                4.150024890899658,
+                -92
+            ],
+            "min": [
+                -4,
+                2.150024890899658,
+                -92
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 36,
+            "componentType": 5126,
+            "count": 60,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 37,
+            "componentType": 5125,
+            "count": 162,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 38,
+            "componentType": 5126,
+            "count": 40,
+            "max": [
+                139.5,
+                5.590000152587891,
+                89
+            ],
+            "min": [
+                -21,
+                5.590000152587891,
+                -26
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 39,
+            "componentType": 5126,
+            "count": 40,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 40,
+            "componentType": 5125,
+            "count": 108,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 41,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.4999935626983643,
+                5.590000152587891,
+                89.5
+            ],
+            "min": [
+                -1.4999935626983643,
+                5.590000152587891,
+                86.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 42,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 43,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 44,
+            "componentType": 5125,
+            "count": 66,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 606036,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 606036,
+            "byteOffset": 606036,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 963432,
+            "byteOffset": 1212072
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4320,
+            "byteOffset": 2175504,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 4320,
+            "byteOffset": 2179824,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5976,
+            "byteOffset": 2184144
+        },
+        {
+            "buffer": 0,
+            "byteLength": 16008,
+            "byteOffset": 2190120,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 16008,
+            "byteOffset": 2206128,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 25032,
+            "byteOffset": 2222136
+        },
+        {
+            "buffer": 0,
+            "byteLength": 18468,
+            "byteOffset": 2247168,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 18468,
+            "byteOffset": 2265636,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27264,
+            "byteOffset": 2284104
+        },
+        {
+            "buffer": 0,
+            "byteLength": 17640,
+            "byteOffset": 2311368,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 17640,
+            "byteOffset": 2329008,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 18324,
+            "byteOffset": 2346648
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8448,
+            "byteOffset": 2364972,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8448,
+            "byteOffset": 2373420,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 7680,
+            "byteOffset": 2381868
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3576,
+            "byteOffset": 2389548,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3576,
+            "byteOffset": 2393124,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3432,
+            "byteOffset": 2396700
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1920,
+            "byteOffset": 2400132,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1920,
+            "byteOffset": 2402052,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1992,
+            "byteOffset": 2403972
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 2405964,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 2406348,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256,
+            "byteOffset": 2406732,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 2406988
+        },
+        {
+            "buffer": 0,
+            "byteLength": 528,
+            "byteOffset": 2407348,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 528,
+            "byteOffset": 2407876,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 352,
+            "byteOffset": 2408404,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 504,
+            "byteOffset": 2408756
+        },
+        {
+            "buffer": 0,
+            "byteLength": 552,
+            "byteOffset": 2409260,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 552,
+            "byteOffset": 2409812,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 528,
+            "byteOffset": 2410364
+        },
+        {
+            "buffer": 0,
+            "byteLength": 720,
+            "byteOffset": 2410892,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 720,
+            "byteOffset": 2411612,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 648,
+            "byteOffset": 2412332
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 2412980,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 480,
+            "byteOffset": 2413460,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 432,
+            "byteOffset": 2413940
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 2414372,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 2414660,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 2414948,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 264,
+            "byteOffset": 2415140
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2415404,
+            "uri": "Samsung Galaxy Tab S7 Plus resources/Samsung Galaxy Tab S7 Plus.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 766.0391845703125,
+                "znear": 473.3072509765625
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Samsung Galaxy Tab S7 Plus resources/wallpaper_001.jpg"
+        },
+        {
+            "uri": "Samsung Galaxy Tab S7 Plus resources/Lens.png"
+        },
+        {
+            "uri": "Samsung Galaxy Tab S7 Plus resources/lens (2).png"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.1254899948835373,
+                    0.21568599343299866,
+                    0.1647060066461563,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.1490200012922287,
+                    0.24705900251865387,
+                    0.4156860113143921,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.1254899948835373,
+                    0.21568599343299866,
+                    0.1647060066461563,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.1254899948835373,
+                    0.21568599343299866,
+                    0.1647060066461563,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8274509906768799,
+                    0.8431370258331299,
+                    0.8666669726371765,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.8274509906768799,
+                    0.8431370258331299,
+                    0.8666669726371765,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.9803919792175293,
+                    0.9803919792175293,
+                    0.8823530077934265,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.525000000372529
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.3
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7725489735603333,
+                    0.5725489854812622,
+                    0.09019610285758972,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.21568599343299866,
+                    0.2588239908218384,
+                    0.2901960015296936,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21
+                    },
+                    "indices": 23,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 25,
+                        "POSITION": 24,
+                        "TEXCOORD_0": 26
+                    },
+                    "indices": 27,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 29,
+                        "POSITION": 28,
+                        "TEXCOORD_0": 30
+                    },
+                    "indices": 31,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 33,
+                        "POSITION": 32
+                    },
+                    "indices": 34,
+                    "material": 10,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 36,
+                        "POSITION": 35
+                    },
+                    "indices": 37,
+                    "material": 11,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 39,
+                        "POSITION": 38
+                    },
+                    "indices": 40,
+                    "material": 12,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Samsung Galaxy Tab S7 Plus-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 42,
+                        "POSITION": 41,
+                        "TEXCOORD_0": 43
+                    },
+                    "indices": 44,
+                    "material": 13,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                -0.6141559615024903,
+                -1.9095854497663822e-07,
+                0.7891846912387877,
+                0,
+                0.417040655910192,
+                0.8489675086703399,
+                0.32454781495027174,
+                0,
+                -0.669992208480835,
+                0.5284450650215149,
+                -0.5213983654975891,
+                0,
+                -414.70904541015625,
+                423.1261291503906,
+                -331.4494323730469,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 1,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 2,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 3,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 4,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 5,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 6,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 7,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 8,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 9,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 10,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 11,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 12,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "mesh": 13,
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "children": [
+                15
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                4.5000046478345506e-08,
+                -0.9999999999999989,
+                0,
+                0,
+                0.9999999999999989,
+                4.5000046478345506e-08,
+                0,
+                0,
+                100,
+                -0.5,
+                1
+            ],
+            "name": "Samsung Galaxy Tab S7 Plus"
+        },
+        {
+            "children": [
+                16
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                17
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 2
+        }
+    ]
+}
+  
