@@ -1,0 +1,1179 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 48,
+            "max": [
+                11.699999809265137,
+                -100.5999984741211,
+                4.199999809265137
+            ],
+            "min": [
+                -11.699999809265137,
+                -112.5999984741211,
+                3.799999952316284
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 48,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 114,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 76814,
+            "max": [
+                92.8499984741211,
+                120.5999984741211,
+                8.458579063415527
+            ],
+            "min": [
+                -92.8499984741211,
+                -120.5999984741211,
+                -2.220446049250313e-15
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 76814,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 389088,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 904,
+            "max": [
+                5.199999809265137,
+                -106.34169006347656,
+                9.899999618530273
+            ],
+            "min": [
+                -5.199185371398926,
+                -116.74015045166016,
+                9.699999809265137
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 904,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 4215,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 10451,
+            "max": [
+                90.8499984741211,
+                118.5999984741211,
+                9.899999618530273
+            ],
+            "min": [
+                -90.8499984741211,
+                -118.5999984741211,
+                9
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 10451,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 49104,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 33276,
+            "max": [
+                92.79141998291016,
+                120.54141998291016,
+                9.399999618530273
+            ],
+            "min": [
+                -92.79141998291016,
+                -120.54141998291016,
+                8.458579063415527
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 33276,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 171264,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 1397,
+            "max": [
+                12.5,
+                120.5999984741211,
+                7.5
+            ],
+            "min": [
+                -74.5999984741211,
+                -118.02857208251953,
+                2.2500264644622803
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 1397,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 6864,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 1658,
+            "max": [
+                90.02674102783203,
+                117.11412048339844,
+                5.4196271896362305
+            ],
+            "min": [
+                67.8499984741211,
+                70.5999984741211,
+                2.5735862255096436
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 1658,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 6648,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 164,
+            "max": [
+                11.68472957611084,
+                26.15882682800293,
+                0
+            ],
+            "min": [
+                -10.54877758026123,
+                -1.113904595375061,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 164,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 492,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 44,
+            "max": [
+                2.5,
+                -109.04141998291016,
+                9.800000190734863
+            ],
+            "min": [
+                -2.5,
+                -114.04141998291016,
+                9.800000190734863
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 44,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5125,
+            "count": 132,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                77.79141998291016,
+                102.54141998291016,
+                9.899999618530273
+            ],
+            "min": [
+                -77.79141998291016,
+                -102.54141998291016,
+                9.899999618530273
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5126,
+            "count": 2400,
+            "max": [
+                68.0999984741211,
+                -100.86216735839844,
+                0.32665491104125977
+            ],
+            "min": [
+                38.599998474121094,
+                -108.33776092529297,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5126,
+            "count": 2400,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 33,
+            "componentType": 5125,
+            "count": 5760,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 34,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.5,
+                113.59941101074219,
+                9.899999618530273
+            ],
+            "min": [
+                -1.5,
+                110.59941864013672,
+                9.899999618530273
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 35,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 36,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 37,
+            "componentType": 5125,
+            "count": 66,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 38,
+            "componentType": 5126,
+            "count": 32,
+            "max": [
+                72.3499984741211,
+                106.0999984741211,
+                0.5
+            ],
+            "min": [
+                67.3499984741211,
+                101.10000610351562,
+                0.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 39,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 40,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 41,
+            "componentType": 5125,
+            "count": 90,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 576,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 576,
+            "byteOffset": 576,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 456,
+            "byteOffset": 1152
+        },
+        {
+            "buffer": 0,
+            "byteLength": 921768,
+            "byteOffset": 1608,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 921768,
+            "byteOffset": 923376,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1556352,
+            "byteOffset": 1845144
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10848,
+            "byteOffset": 3401496,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10848,
+            "byteOffset": 3412344,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 16860,
+            "byteOffset": 3423192
+        },
+        {
+            "buffer": 0,
+            "byteLength": 125412,
+            "byteOffset": 3440052,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 125412,
+            "byteOffset": 3565464,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 196416,
+            "byteOffset": 3690876
+        },
+        {
+            "buffer": 0,
+            "byteLength": 399312,
+            "byteOffset": 3887292,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 399312,
+            "byteOffset": 4286604,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 685056,
+            "byteOffset": 4685916
+        },
+        {
+            "buffer": 0,
+            "byteLength": 16764,
+            "byteOffset": 5370972,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 16764,
+            "byteOffset": 5387736,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 27456,
+            "byteOffset": 5404500
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19896,
+            "byteOffset": 5431956,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19896,
+            "byteOffset": 5451852,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 26592,
+            "byteOffset": 5471748
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1968,
+            "byteOffset": 5498340,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1968,
+            "byteOffset": 5500308,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1968,
+            "byteOffset": 5502276
+        },
+        {
+            "buffer": 0,
+            "byteLength": 528,
+            "byteOffset": 5504244,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 528,
+            "byteOffset": 5504772,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 528,
+            "byteOffset": 5505300
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 5505828,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 5505876,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 32,
+            "byteOffset": 5505924,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24,
+            "byteOffset": 5505956
+        },
+        {
+            "buffer": 0,
+            "byteLength": 28800,
+            "byteOffset": 5505980,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 28800,
+            "byteOffset": 5534780,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 23040,
+            "byteOffset": 5563580
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 5586620,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 5586908,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 5587196,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 264,
+            "byteOffset": 5587388
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 5587652,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 5588036,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256,
+            "byteOffset": 5588420,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 5588676
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 5589036,
+            "uri": "Apple iPad 3rd generation resources/Apple iPad 3rd generation.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 835.9348754882812,
+                "znear": 722.4198608398438
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Apple iPad 3rd generation resources/7052382519_31942c3638_b.jpg"
+        },
+        {
+            "uri": "Apple iPad 3rd generation resources/l2.png"
+        },
+        {
+            "uri": "Apple iPad 3rd generation resources/lens (2).png"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.002265610033646226,
+                    0.4214169979095459,
+                    0.9024999737739563,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.521359434723854
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.3
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5500000007450581
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21
+                    },
+                    "indices": 23,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 25,
+                        "POSITION": 24
+                    },
+                    "indices": 26,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 28,
+                        "POSITION": 27,
+                        "TEXCOORD_0": 29
+                    },
+                    "indices": 30,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 32,
+                        "POSITION": 31
+                    },
+                    "indices": 33,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 35,
+                        "POSITION": 34,
+                        "TEXCOORD_0": 36
+                    },
+                    "indices": 37,
+                    "material": 10,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 3rd generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 39,
+                        "POSITION": 38,
+                        "TEXCOORD_0": 40
+                    },
+                    "indices": 41,
+                    "material": 11,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.9794143577883752,
+                -1.8073878260693732e-07,
+                0.2018602745672553,
+                0,
+                0.05712886987607907,
+                0.9591166728404822,
+                -0.2771851082201596,
+                0,
+                -0.19360749423503876,
+                0.2830111086368561,
+                0.9393725991249084,
+                0,
+                -129.63401794433594,
+                373.9787292480469,
+                735.2681884765625,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 1,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 2,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 3,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 4,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 5,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 6,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 7,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 8,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 9,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 10,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 11,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "mesh": 12,
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "children": [
+                14
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                150,
+                -4.95,
+                1
+            ],
+            "name": "Apple iPad 3rd generation"
+        },
+        {
+            "children": [
+                15
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                16
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 2
+        }
+    ]
+}

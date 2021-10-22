@@ -1,0 +1,1180 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 24169,
+            "max": [
+                84.75,
+                120,
+                6.5
+            ],
+            "min": [
+                -84.75,
+                -120,
+                -3.3306690738754696e-16
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 24169,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 122421,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 10009,
+            "max": [
+                82.75,
+                118,
+                8
+            ],
+            "min": [
+                -82.75,
+                -118,
+                7.099999904632568
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 10009,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 47079,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 155,
+            "max": [
+                64.75,
+                107.99756622314453,
+                0.5
+            ],
+            "min": [
+                58.75,
+                102.00243377685547,
+                2.4424906541753444e-15
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 155,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 465,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 332,
+            "max": [
+                3.1671500205993652,
+                -110,
+                4.059999942779541
+            ],
+            "min": [
+                -3.1671500205993652,
+                -118,
+                3.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 332,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 1506,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 11184,
+            "max": [
+                37.669578552246094,
+                119.94197082519531,
+                5.75
+            ],
+            "min": [
+                -71.49971008300781,
+                -120,
+                2.25
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 11184,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 57246,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 32734,
+            "max": [
+                84.75,
+                120,
+                7.5
+            ],
+            "min": [
+                -84.75,
+                -120,
+                6.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 32734,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 168762,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 1680,
+            "max": [
+                65.25,
+                -104.51251983642578,
+                0
+            ],
+            "min": [
+                26.250019073486328,
+                -115.48750305175781,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 1680,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 4320,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 1659,
+            "max": [
+                84.84913635253906,
+                119.47781372070312,
+                3.4648232460021973
+            ],
+            "min": [
+                59.75,
+                70,
+                0.5082144737243652
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 1659,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 6651,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 24,
+            "componentType": 5126,
+            "count": 164,
+            "max": [
+                11.68472957611084,
+                26.15882682800293,
+                0
+            ],
+            "min": [
+                -10.54877758026123,
+                -1.113904595375061,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 25,
+            "componentType": 5126,
+            "count": 164,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 26,
+            "componentType": 5125,
+            "count": 492,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 27,
+            "componentType": 5126,
+            "count": 4,
+            "max": [
+                74.75,
+                100,
+                8
+            ],
+            "min": [
+                -74.75,
+                -100,
+                8
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 28,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 29,
+            "componentType": 5126,
+            "count": 4,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 30,
+            "componentType": 5125,
+            "count": 6,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 31,
+            "componentType": 5126,
+            "count": 87,
+            "max": [
+                5,
+                -103.97806549072266,
+                8
+            ],
+            "min": [
+                -4.987823486328125,
+                -113.97196960449219,
+                8
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 32,
+            "componentType": 5126,
+            "count": 87,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 33,
+            "componentType": 5125,
+            "count": 261,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 34,
+            "componentType": 5126,
+            "count": 24,
+            "max": [
+                1.5,
+                111.08971405029297,
+                8
+            ],
+            "min": [
+                -1.5,
+                108.08972930908203,
+                8
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 35,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 36,
+            "componentType": 5126,
+            "count": 24,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 37,
+            "componentType": 5125,
+            "count": 66,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 38,
+            "componentType": 5126,
+            "count": 32,
+            "max": [
+                64.25,
+                107.5,
+                0.5
+            ],
+            "min": [
+                59.25,
+                102.5,
+                0.5
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 39,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 40,
+            "componentType": 5126,
+            "count": 32,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 41,
+            "componentType": 5125,
+            "count": 90,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 290028,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 290028,
+            "byteOffset": 290028,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 489684,
+            "byteOffset": 580056
+        },
+        {
+            "buffer": 0,
+            "byteLength": 120108,
+            "byteOffset": 1069740,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 120108,
+            "byteOffset": 1189848,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 188316,
+            "byteOffset": 1309956
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1860,
+            "byteOffset": 1498272,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1860,
+            "byteOffset": 1500132,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1860,
+            "byteOffset": 1501992
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3984,
+            "byteOffset": 1503852,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 3984,
+            "byteOffset": 1507836,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 6024,
+            "byteOffset": 1511820
+        },
+        {
+            "buffer": 0,
+            "byteLength": 134208,
+            "byteOffset": 1517844,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 134208,
+            "byteOffset": 1652052,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 228984,
+            "byteOffset": 1786260
+        },
+        {
+            "buffer": 0,
+            "byteLength": 392808,
+            "byteOffset": 2015244,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 392808,
+            "byteOffset": 2408052,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 675048,
+            "byteOffset": 2800860
+        },
+        {
+            "buffer": 0,
+            "byteLength": 20160,
+            "byteOffset": 3475908,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 20160,
+            "byteOffset": 3496068,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 17280,
+            "byteOffset": 3516228
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19908,
+            "byteOffset": 3533508,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 19908,
+            "byteOffset": 3553416,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 26604,
+            "byteOffset": 3573324
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1968,
+            "byteOffset": 3599928,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1968,
+            "byteOffset": 3601896,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1968,
+            "byteOffset": 3603864
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 3605832,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 48,
+            "byteOffset": 3605880,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 32,
+            "byteOffset": 3605928,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 24,
+            "byteOffset": 3605960
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1044,
+            "byteOffset": 3605984,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1044,
+            "byteOffset": 3607028,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1044,
+            "byteOffset": 3608072
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 3609116,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 288,
+            "byteOffset": 3609404,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 192,
+            "byteOffset": 3609692,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 264,
+            "byteOffset": 3609884
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 3610148,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 384,
+            "byteOffset": 3610532,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 256,
+            "byteOffset": 3610916,
+            "byteStride": 8
+        },
+        {
+            "buffer": 0,
+            "byteLength": 360,
+            "byteOffset": 3611172
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3611532,
+            "uri": "Apple iPad 5th generation resources/Apple iPad 5th generation.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 835.6790771484375,
+                "znear": 714.327392578125
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "uri": "Apple iPad 5th generation resources/153511-ipad-ipad_pro-apple-ipad_pro_2020-apples-3000x3994.jpg"
+        },
+        {
+            "uri": "Apple iPad 5th generation resources/l1.png"
+        },
+        {
+            "uri": "Apple iPad 5th generation resources/lens (2).png"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "metallicFactor": 0.8,
+                "roughnessFactor": 0.3
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.002265610033646226,
+                    0.4214169979095459,
+                    0.9024999737739563,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.11282050609588623,
+                    0.11282050609588623,
+                    0.11282050609588623,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5500000007450581
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    0.0024999999441206455,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.6000000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    0.011764699593186378,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5500000007450581
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 2
+                },
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21
+                    },
+                    "indices": 23,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 25,
+                        "POSITION": 24
+                    },
+                    "indices": 26,
+                    "material": 8,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 28,
+                        "POSITION": 27,
+                        "TEXCOORD_0": 29
+                    },
+                    "indices": 30,
+                    "material": 9,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 32,
+                        "POSITION": 31
+                    },
+                    "indices": 33,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 35,
+                        "POSITION": 34,
+                        "TEXCOORD_0": 36
+                    },
+                    "indices": 37,
+                    "material": 10,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Apple iPad 5th generation-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 39,
+                        "POSITION": 38,
+                        "TEXCOORD_0": 40
+                    },
+                    "indices": 41,
+                    "material": 11,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.8498697603303051,
+                -1.819667954094939e-07,
+                -0.5269928542965683,
+                0,
+                -0.05649667850811536,
+                0.9942368720961867,
+                -0.09111129145259164,
+                0,
+                0.5239557027816772,
+                0.1072060689330101,
+                0.844971776008606,
+                0,
+                401.2417907714844,
+                295.22393798828125,
+                656.3079833984375,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 1,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 2,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 3,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 4,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 5,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 6,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 7,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 8,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 9,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 10,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 11,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "mesh": 12,
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "children": [
+                14
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -0.0496,
+                200,
+                -4,
+                1
+            ],
+            "name": "Apple iPad 5th generation"
+        },
+        {
+            "children": [
+                15
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        },
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                16
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "sampler": 2,
+            "source": 2
+        }
+    ]
+}
+ 
