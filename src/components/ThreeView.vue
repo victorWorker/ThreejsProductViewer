@@ -4,23 +4,33 @@
     <input type="color" v-model="setcolor">
     <button @click="changebutton">Update</button>
   </div> -->
-  <div>
+  <div class="product_sel">
+    <v-select class="prodSelection" :options="products" label="name" v-model="selected_prod">
+      <template slot="option" slot-scope="option">
+        <div class="optionBar">
+          <img :src="option.img" alt="" width="50" height="50">
+          <span class="optionName">{{ option.name }}</span>
+        </div>
+      </template>
+    </v-select>
+    <button class="changeBtn" @click="changeModel">Change Model</button>
   </div>
   <div class="Previewer">
     <div id="container"></div>
   </div>
   <div class="products">
-    <div v-for="(item, index) in products" :key="index" class="itemImg">
+    <!-- <div v-for="(item, index) in products" :key="index" class="itemImg">
       <img  :src='item.img' @click="onChangeImage(index)" class="productImg" alt="">
-      <!-- <span>{{item.name}}</span> -->
-    </div>
+      <span>{{item.name}}</span>
+    </div> -->
   </div>
 </div>
   
 </template>
 <style scoped>
 .viewer{
-  display: flex;
+  display: block;
+  padding: 15px
 }
 #container {
   background-color: blue;
@@ -34,8 +44,30 @@
   height: 100%;
 }
 .Previewer{
-  width: 1200px;
-  height: 800px;
+  width: 100%;
+  height: 90vh;
+}
+.product_sel{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.prodSelection{
+  width: 80%;
+}
+.optionBar{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  overflow-wrap: initial;
+}
+.optionName{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.changeBtn{
+  width: 18%;
 }
 .products{
   display: grid;
@@ -51,6 +83,24 @@
   width: 80px;
   height: 80px;
 }
+@media only screen and (max-width: 380px) {
+  .product_sel{
+    display: block;
+    margin-bottom: 10px;
+    /* justify-content: space-between; */
+  }
+  .prodSelection{
+    width: 100%
+  }
+  .changeBtn{
+    padding: 5px 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .optionName{
+    font-size: 15px;
+  }
+}
 </style>
 <script>
 import * as Three from 'three'
@@ -58,15 +108,17 @@ import * as Three from 'three'
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import vSelect from 'vue-select'
+import 'vue-select/dist/vue-select.css';
 // import Autocomplete from 'v-autocomplete'
 // import 'v-autocomplete/dist/v-autocomplete.css'
 
 import Itemtemplate from './Itemtemplate.vue'
 
 export default {
-  // components:{
-  //   Autocomplete,
-  // },
+  components:{
+    'v-select': vSelect,
+  },
   data() {
     return {
       templatedev: Itemtemplate,
@@ -80,7 +132,7 @@ export default {
       loader: false,
       selected_prod: '',
       products: [
-        {name: 'Alcatel_Joy_Tab_2',  img: require('../assets/img/Alcatel_Joy_Tab_2.png')},
+        {title: 'Alcatel Joy Tab 2', name: 'Alcatel_Joy_Tab_2',  img: require('../assets/img/Alcatel_Joy_Tab_2.png')},
         {name: 'Amazon_fire_10', img: require('../assets/img/Amazon_fire_10.png')},
         {name: 'Amazon_fire_10_plus', img: require('../assets/img/Amazon_fire_10_plus.png')},
         {name: 'New', img: require('../assets/img/New.png')},
@@ -220,6 +272,21 @@ export default {
     getLabel(item){
       return item.name;
     }, 
+    changeModel(){
+      console.log(this.selected_prod);
+      let self = this;
+      self.loader = true;
+      self.scene.remove(self.mesh);
+      const loader = new GLTFLoader().setPath('products/');
+      loader.load( self.selected_prod.name+'.gltf', function ( gltf ) {
+        gltf.scene.position.set(0, -2, 0 );
+        gltf.scene.scale.set( 20.0, 20.0, 20.0 );
+        gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
+        self.scene.add( gltf.scene );
+        self.loader = false;
+        self.mesh = gltf.scene;
+      } );
+    },
     onChangeImage(index) {
       let self = this;
       self.loader = true;
