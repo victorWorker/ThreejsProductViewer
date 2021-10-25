@@ -4,6 +4,7 @@
     <input type="color" v-model="setcolor">
     <button @click="changebutton">Update</button>
   </div> -->
+  <span>{{selected_prod.name}}</span>
   <div class="product_sel">
     <v-select class="prodSelection" :options="products" label="name" v-model="selected_prod">
       <template slot="option" slot-scope="option">
@@ -180,6 +181,12 @@ export default {
         {name: 'Apple_iPad_mini_2nd_generation', img: require('../assets/img/Apple_iPad_mini_2nd_generation.png')},
         {name: 'Apple_iPad_mini_4th_generation', img: require('../assets/img/Apple_iPad_mini_4th_generation.png')},
         {name: 'Apple_iPad_mini_6th_generation', img: require('../assets/img/Apple_iPad_mini_6th_generation.png')},
+        {name: 'Apple_iPad_Pro_9_7', img: require('../assets/img/Apple_iPad_Pro_9_7.png')},
+        {name: 'Apple_iPad_Pro_10_5', img: require('../assets/img/Apple_iPad_Pro_10_5.png')},
+        {name: 'Apple_iPad_Pro_11_2018', img: require('../assets/img/Apple_iPad_Pro_11_2018.png')},
+        {name: 'Apple_iPad_Pro_12_9_1st_generation', img: require('../assets/img/Apple_iPad_Pro_12_9_1st_generation.png')},
+        {name: 'Apple_iPad_Pro_12_9_3rd_generation', img: require('../assets/img/Apple_iPad_Pro_12_9_3rd_generation.png')},
+        {name: 'Apple_iPad_Pro_12_9_5th_generation', img: require('../assets/img/Apple_iPad_Pro_12_9_5th_generation.png')},
       ],
     }
   },
