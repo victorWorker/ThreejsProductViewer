@@ -6,10 +6,17 @@
   </div> -->
   <span>{{selected_prod.name}}</span>
   <div class="product_sel">
-    <v-select class="prodSelection" :options="products" label="name" v-model="selected_prod">
+    <!-- <v-select class="prodSelection" :options="products" label="name" v-model="selected_prod">
       <template slot="option" slot-scope="option">
         <div class="optionBar">
           <img :src="option.img" alt="" width="50" height="50">
+          <span class="optionName">{{ option.name }}</span>
+        </div>
+      </template>
+    </v-select> -->
+    <v-select class="prodSelection" :options="holders" label="name" v-model="selected_prod">
+      <template slot="option" slot-scope="option">
+        <div class="optionBar">
           <span class="optionName">{{ option.name }}</span>
         </div>
       </template>
@@ -55,6 +62,8 @@
 }
 .prodSelection{
   width: 80%;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .optionBar{
   display: flex;
@@ -127,66 +136,77 @@ export default {
       scene: null,
       renderer: null,
       mesh: null,
+      holdMesh: null,
       cameraTarget: null,
       controls: null,
       setcolor: null,
       loader: false,
       selected_prod: '',
       products: [
-        {title: 'Alcatel Joy Tab 2', name: 'Alcatel_Joy_Tab_2',  img: require('../assets/img/Alcatel_Joy_Tab_2.png')},
-        {name: 'Amazon_fire_10', img: require('../assets/img/Amazon_fire_10.png')},
-        {name: 'Amazon_fire_10_plus', img: require('../assets/img/Amazon_fire_10_plus.png')},
-        {name: 'New', img: require('../assets/img/New.png')},
-        {name: 'switch_7', img: require('../assets/img/switch_7.png')},
-        {name: 'Asus_Transformer_Book_Flip', img: require('../assets/img/Asus_Transformer_Book_Flip.png')},
-        {name: 'Asus_Transformer_Mini_10', img: require('../assets/img/Asus_Transformer_Mini_10.png')},
-        {name: 'Amazon_Fire_HD_8', img: require('../assets/img/Amazon_Fire_HD_8.png')},
-        {name: 'Asus_Zenpad_3s_10', img: require('../assets/img/Asus_Zenpad_3s_10.png')},
-        {name: 'Chuwi_Hi10_Pro', img: require('../assets/img/Chuwi_Hi10_Pro.png')},
-        {name: 'Chuwi_Hi13', img: require('../assets/img/Chuwi_Hi13.png')},
-        {name: 'Chuwi_HiBook_Pro', img: require('../assets/img/Chuwi_HiBook_Pro.png')},
-        {name: 'Huawei_Matepad_Pro', img: require('../assets/img/Huawei_Matepad_Pro.png')},
-        {name: 'Huawei_MediaPad_T3_10', img: require('../assets/img/Huawei_MediaPad_T3_10.png')},
-        {name: 'Lenovo_Tab_P11_Pro', img: require('../assets/img/Lenovo_Tab_P11_Pro.png')},
-        {name: 'Lenovo_IdeaPad_Miix_520', img: require('../assets/img/Lenovo_IdeaPad_Miix_520.png')},
-        {name: 'Lenovo_Miix_630', img: require('../assets/img/Lenovo_Miix_630.png')},
-        {name: 'Lenovo_Tab_4_8', img: require('../assets/img/Lenovo_Tab_4_8.png')},
-        {name: 'Lenovo_ThinkPad_X1', img: require('../assets/img/Lenovo_ThinkPad_X1.png')},
-        {name: 'Lenovo_Yoga_Smart_Tab', img: require('../assets/img/Lenovo_Yoga_Smart_Tab.png')},
-        {name: 'Microsoft_Surface_Go', img: require('../assets/img/Microsoft_Surface_Go.png')},
-        {name: 'Microsoft_Surface_Pro_4', img: require('../assets/img/Microsoft_Surface_Pro_4.png')},
-        {name: 'Microsoft_Surface_Pro_8', img: require('../assets/img/Microsoft_Surface_Pro_8.png')},
-        {name: 'Onn_8_inch_tablet', img: require('../assets/img/Onn_8_inch_tablet.png')},
-        {name: 'Onyx_Boox_Max_Lumi', img: require('../assets/img/Onyx_Boox_Max_Lumi.png')},
-        {name: 'Samsung_Galaxy_Tab_A_8', img: require('../assets/img/Samsung_Galaxy_Tab_A_8.png')},
-        {name: 'Samsung_Galaxy_Tab_S2', img: require('../assets/img/Samsung_Galaxy_Tab_S2.png')},
-        {name: 'Samsung_Galaxy_Tab_S3', img: require('../assets/img/Samsung_Galaxy_Tab_S3.png')},
-        {name: 'Apple_iPad_2nd_generation', img: require('../assets/img/Apple_iPad_2nd_generation.png')},
-        {name: 'Lenovo_Tab_M10_Plus', img: require('../assets/img/Lenovo_Tab_M10_Plus.png')},
-        {name: 'Samsung_Galaxy_Tab_A7_10', img: require('../assets/img/Samsung_Galaxy_Tab_A7_10.png')},
-        {name: 'Samsung_Galaxy_Tab_A7_Lite_8', img: require('../assets/img/Samsung_Galaxy_Tab_A7_Lite_8.png')},
-        {name: 'Samsung_Galaxy_Tab_Active_3_8', img: require('../assets/img/Samsung_Galaxy_Tab_Active_3_8.png')},
-        {name: 'Samsung_Galaxy_Tab_S4', img: require('../assets/img/Samsung_Galaxy_Tab_S4.png')},
-        {name: 'Samsung_Galaxy_Tab_S5E', img: require('../assets/img/Samsung_Galaxy_Tab_S5E.png')},
-        {name: 'Samsung_Galaxy_Tab_S6', img: require('../assets/img/Samsung_Galaxy_Tab_S6.png')},
-        {name: 'Samsung_Galaxy_Tab_S6_Lite', img: require('../assets/img/Samsung_Galaxy_Tab_S6_Lite.png')},
-        {name: 'Samsung_Galaxy_Tab_S7_Plus', img: require('../assets/img/Samsung_Galaxy_Tab_S7_Plus.png')},
-        {name: 'Apple_iPad_3rd_generation', img: require('../assets/img/Apple_iPad_3rd_generation.png')},
-        {name: 'Apple_iPad_5th_generation', img: require('../assets/img/Apple_iPad_5th_generation.png')},
-        {name: 'Apple_iPad_7th_generation', img: require('../assets/img/Apple_iPad_7th_generation.png')},
-        {name: 'Apple_iPad_Air_1st_generation', img: require('../assets/img/Apple_iPad_Air_1st_generation.png')},
-        {name: 'Apple_iPad_Air_2nd_generation', img: require('../assets/img/Apple_iPad_Air_2nd_generation.png')},
-        {name: 'Apple_iPad_Air_4th_generation', img: require('../assets/img/Apple_iPad_Air_4th_generation.png')},
-        {name: 'Apple_iPad_mini_1st_generation', img: require('../assets/img/Apple_iPad_mini_1st_generation.png')},
-        {name: 'Apple_iPad_mini_2nd_generation', img: require('../assets/img/Apple_iPad_mini_2nd_generation.png')},
-        {name: 'Apple_iPad_mini_4th_generation', img: require('../assets/img/Apple_iPad_mini_4th_generation.png')},
-        {name: 'Apple_iPad_mini_6th_generation', img: require('../assets/img/Apple_iPad_mini_6th_generation.png')},
-        {name: 'Apple_iPad_Pro_9_7', img: require('../assets/img/Apple_iPad_Pro_9_7.png')},
-        {name: 'Apple_iPad_Pro_10_5', img: require('../assets/img/Apple_iPad_Pro_10_5.png')},
-        {name: 'Apple_iPad_Pro_11_2018', img: require('../assets/img/Apple_iPad_Pro_11_2018.png')},
-        {name: 'Apple_iPad_Pro_12_9_1st_generation', img: require('../assets/img/Apple_iPad_Pro_12_9_1st_generation.png')},
-        {name: 'Apple_iPad_Pro_12_9_3rd_generation', img: require('../assets/img/Apple_iPad_Pro_12_9_3rd_generation.png')},
-        {name: 'Apple_iPad_Pro_12_9_5th_generation', img: require('../assets/img/Apple_iPad_Pro_12_9_5th_generation.png')},
+        {title: 'Alcatel Joy Tab 2', name: 'Alcatel_Joy_Tab_2', path: 'products/Alcatel_Joy_Tab_2.gltf', img: require('../assets/img/Alcatel_Joy_Tab_2.png')},
+        {name: 'Amazon_fire_10', path: 'products/Amazon_fire_10.gltf', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'Amazon_fire_10_plus', path: 'products/Amazon_fire_10_plus.gltf', img: require('../assets/img/Amazon_fire_10_plus.png')},
+        {name: 'New', path: 'products/New.gltf', img: require('../assets/img/New.png')},
+        {name: 'switch_7', path: 'products/switch_7.gltf', img: require('../assets/img/switch_7.png')},
+        {name: 'Asus_Transformer_Book_Flip', path: 'products/Asus_Transformer_Book_Flip.gltf', img: require('../assets/img/Asus_Transformer_Book_Flip.png')},
+        {name: 'Asus_Transformer_Mini_10', path: 'products/Asus_Transformer_Mini_10.gltf', img: require('../assets/img/Asus_Transformer_Mini_10.png')},
+        {name: 'Amazon_Fire_HD_8', path: 'products/Amazon_Fire_HD_8.gltf', img: require('../assets/img/Amazon_Fire_HD_8.png')},
+        {name: 'Asus_Zenpad_3s_10', path: 'products/Asus_Zenpad_3s_10.gltf', img: require('../assets/img/Asus_Zenpad_3s_10.png')},
+        {name: 'Chuwi_Hi10_Pro', path: 'products/Chuwi_Hi10_Pro.gltf', img: require('../assets/img/Chuwi_Hi10_Pro.png')},
+        {name: 'Chuwi_Hi13', path: 'products/Chuwi_Hi13.gltf', img: require('../assets/img/Chuwi_Hi13.png')},
+        {name: 'Chuwi_HiBook_Pro', path: 'products/Chuwi_HiBook_Pro.gltf', img: require('../assets/img/Chuwi_HiBook_Pro.png')},
+        {name: 'Huawei_Matepad_Pro', path: 'products/Huawei_Matepad_Pro.gltf', img: require('../assets/img/Huawei_Matepad_Pro.png')},
+        {name: 'Huawei_MediaPad_T3_10', path: 'products/Huawei_MediaPad_T3_10.gltf', img: require('../assets/img/Huawei_MediaPad_T3_10.png')},
+        {name: 'Lenovo_Tab_P11_Pro', path: 'products/Lenovo_Tab_P11_Pro.gltf', img: require('../assets/img/Lenovo_Tab_P11_Pro.png')},
+        {name: 'Lenovo_IdeaPad_Miix_520', path: 'products/Lenovo_IdeaPad_Miix_520.gltf', img: require('../assets/img/Lenovo_IdeaPad_Miix_520.png')},
+        {name: 'Lenovo_Miix_630', path: 'products/Lenovo_Miix_630.gltf', img: require('../assets/img/Lenovo_Miix_630.png')},
+        {name: 'Lenovo_Tab_4_8', path: 'products/Lenovo_Tab_4_8.gltf', img: require('../assets/img/Lenovo_Tab_4_8.png')},
+        {name: 'Lenovo_ThinkPad_X1', path: 'products/Lenovo_ThinkPad_X1.gltf', img: require('../assets/img/Lenovo_ThinkPad_X1.png')},
+        {name: 'Lenovo_Yoga_Smart_Tab', path: 'products/Lenovo_Yoga_Smart_Tab.gltf', img: require('../assets/img/Lenovo_Yoga_Smart_Tab.png')},
+        {name: 'Microsoft_Surface_Go', path: 'products/Microsoft_Surface_Go.gltf', img: require('../assets/img/Microsoft_Surface_Go.png')},
+        {name: 'Microsoft_Surface_Pro_4', path: 'products/Microsoft_Surface_Pro_4.gltf', img: require('../assets/img/Microsoft_Surface_Pro_4.png')},
+        {name: 'Microsoft_Surface_Pro_8', path: 'products/Microsoft_Surface_Pro_8.gltf', img: require('../assets/img/Microsoft_Surface_Pro_8.png')},
+        {name: 'Onn_8_inch_tablet', path: 'products/Onn_8_inch_tablet.gltf', img: require('../assets/img/Onn_8_inch_tablet.png')},
+        {name: 'Onyx_Boox_Max_Lumi', path: 'products/Onyx_Boox_Max_Lumi.gltf', img: require('../assets/img/Onyx_Boox_Max_Lumi.png')},
+        {name: 'Samsung_Galaxy_Tab_A_8', path: 'products/Samsung_Galaxy_Tab_A_8.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_A_8.png')},
+        {name: 'Samsung_Galaxy_Tab_S2', path: 'products/Samsung_Galaxy_Tab_S2.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_S2.png')},
+        {name: 'Samsung_Galaxy_Tab_S3', path: 'products/Samsung_Galaxy_Tab_S3.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_S3.png')},
+        {name: 'Apple_iPad_2nd_generation', path: 'products/Apple_iPad_2nd_generation.gltf', img: require('../assets/img/Apple_iPad_2nd_generation.png')},
+        {name: 'Lenovo_Tab_M10_Plus', path: 'products/Lenovo_Tab_M10_Plus.gltf', img: require('../assets/img/Lenovo_Tab_M10_Plus.png')},
+        {name: 'Samsung_Galaxy_Tab_A7_10', path: 'products/Samsung_Galaxy_Tab_A7_10.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_A7_10.png')},
+        {name: 'Samsung_Galaxy_Tab_A7_Lite_8', path: 'products/Samsung_Galaxy_Tab_A7_Lite_8.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_A7_Lite_8.png')},
+        {name: 'Samsung_Galaxy_Tab_Active_3_8', path: 'products/Samsung_Galaxy_Tab_Active_3_8.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_Active_3_8.png')},
+        {name: 'Samsung_Galaxy_Tab_S4', path: 'products/Samsung_Galaxy_Tab_S4.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_S4.png')},
+        {name: 'Samsung_Galaxy_Tab_S5E', path: 'products/Samsung_Galaxy_Tab_S5E.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_S5E.png')},
+        {name: 'Samsung_Galaxy_Tab_S6', path: 'products/Samsung_Galaxy_Tab_S6.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_S6.png')},
+        {name: 'Samsung_Galaxy_Tab_S6_Lite', path: 'products/Samsung_Galaxy_Tab_S6_Lite.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_S6_Lite.png')},
+        {name: 'Samsung_Galaxy_Tab_S7_Plus', path: 'products/Samsung_Galaxy_Tab_S7_Plus.gltf', img: require('../assets/img/Samsung_Galaxy_Tab_S7_Plus.png')},
+        {name: 'Apple_iPad_3rd_generation', path: 'products/Apple_iPad_3rd_generation.gltf', img: require('../assets/img/Apple_iPad_3rd_generation.png')},
+        {name: 'Apple_iPad_5th_generation', path: 'products/Apple_iPad_5th_generation.gltf', img: require('../assets/img/Apple_iPad_5th_generation.png')},
+        {name: 'Apple_iPad_7th_generation', path: 'products/Apple_iPad_7th_generation.gltf', img: require('../assets/img/Apple_iPad_7th_generation.png')},
+        {name: 'Apple_iPad_Air_1st_generation', path: 'products/Apple_iPad_Air_1st_generation.gltf', img: require('../assets/img/Apple_iPad_Air_1st_generation.png')},
+        {name: 'Apple_iPad_Air_2nd_generation', path: 'products/Apple_iPad_Air_2nd_generation.gltf', img: require('../assets/img/Apple_iPad_Air_2nd_generation.png')},
+        {name: 'Apple_iPad_Air_4th_generation', path: 'products/Apple_iPad_Air_4th_generation.gltf', img: require('../assets/img/Apple_iPad_Air_4th_generation.png')},
+        {name: 'Apple_iPad_mini_1st_generation', path: 'products/Apple_iPad_mini_1st_generation.gltf', img: require('../assets/img/Apple_iPad_mini_1st_generation.png')},
+        {name: 'Apple_iPad_mini_2nd_generation', path: 'products/Apple_iPad_mini_2nd_generation.gltf', img: require('../assets/img/Apple_iPad_mini_2nd_generation.png')},
+        {name: 'Apple_iPad_mini_4th_generation', path: 'products/Apple_iPad_mini_4th_generation.gltf', img: require('../assets/img/Apple_iPad_mini_4th_generation.png')},
+        {name: 'Apple_iPad_mini_6th_generation', path: 'products/Apple_iPad_mini_6th_generation.gltf', img: require('../assets/img/Apple_iPad_mini_6th_generation.png')},
+        {name: 'Apple_iPad_Pro_9_7', path: 'products/Apple_iPad_Pro_9_7.gltf', img: require('../assets/img/Apple_iPad_Pro_9_7.png')},
+        {name: 'Apple_iPad_Pro_10_5', path: 'products/Apple_iPad_Pro_10_5.gltf', img: require('../assets/img/Apple_iPad_Pro_10_5.png')},
+        {name: 'Apple_iPad_Pro_11_2018', path: 'products/Apple_iPad_Pro_11_2018.gltf', img: require('../assets/img/Apple_iPad_Pro_11_2018.png')},
+        {name: 'Apple_iPad_Pro_12_9_1st_generation', path: 'products/Apple_iPad_Pro_12_9_1st_generation.gltf', img: require('../assets/img/Apple_iPad_Pro_12_9_1st_generation.png')},
+        {name: 'Apple_iPad_Pro_12_9_3rd_generation', path: 'products/Apple_iPad_Pro_12_9_3rd_generation.gltf', img: require('../assets/img/Apple_iPad_Pro_12_9_3rd_generation.png')},
+        {name: 'Apple_iPad_Pro_12_9_5th_generation', path: 'products/Apple_iPad_Pro_12_9_5th_generation.gltf', img: require('../assets/img/Apple_iPad_Pro_12_9_5th_generation.png')},
+      ],
+      selected_holder: '',
+      holders: [
+        {name: 'Samsung_Galaxy_s7_plus_Edge', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'SamSung_Galaxy_S7_Plus_Fit', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'Samsung_Galaxy_S7_Plus_Forged', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'Samsung_Galaxy_S7_Plus_Pro', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'SamSung_Galaxy_S7_Plus_Fit_holder_with_Tab', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'SamSung_Galaxy_S7_Plus_Forged_holder_with_Tab', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'SamSung_Galaxy_S7_Plus_Pro_with_Tab', img: require('../assets/img/Amazon_fire_10.png')},
       ],
     }
   },
@@ -227,19 +247,28 @@ export default {
 
 						self.render();
 
-						// model
-
-						// const loader = new GLTFLoader().setPath('products/');
-            const loader = new GLTFLoader().setPath('products/');
-						loader.load( self.products[0].name+'.gltf', function ( gltf ) {
-            // loader.load('Lenovo_Tab_4_8.gltf', function ( gltf ) {
+            const holderLoader = new GLTFLoader().setPath('holders/');
+            holderLoader.load(self.holders[0].name+'.gltf', function(gltf) {
               gltf.scene.position.set(0, 0, 0 );
 							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
               gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
 							self.scene.add( gltf.scene );
-
               self.mesh = gltf.scene;
-            } );
+            })
+						// model
+
+						// const loader = new GLTFLoader().setPath('products/');
+            // // const loader = new GLTFLoader();
+						// loader.load( self.products[0].name+'.gltf', function ( gltf ) {
+            // // loader.load('Lenovo_Tab_4_8.gltf', function ( gltf ) {
+            //   gltf.scene.position.set(0, 0, 0 );
+						// 	gltf.scene.scale.set( 20.0, 20.0, 20.0 );
+            //   gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
+						// 	self.scene.add( gltf.scene );
+
+            //   self.mesh = gltf.scene;
+            // } );
+
 
 					} );
 
@@ -284,7 +313,8 @@ export default {
       let self = this;
       self.loader = true;
       self.scene.remove(self.mesh);
-      const loader = new GLTFLoader().setPath('products/');
+      // const loader = new GLTFLoader().setPath('products/');
+      const loader = new GLTFLoader().setPath('holders/');
       loader.load( self.selected_prod.name+'.gltf', function ( gltf ) {
         gltf.scene.position.set(0, -2, 0 );
         gltf.scene.scale.set( 20.0, 20.0, 20.0 );
@@ -299,6 +329,7 @@ export default {
       self.loader = true;
       self.scene.remove(self.mesh);
       const loader = new GLTFLoader().setPath('products/');
+      // const loader = new GLTFLoader().setPath('holders/');
       loader.load( self.products[index].name+'.gltf', function ( gltf ) {
         gltf.scene.position.set(0, -2, 0 );
         gltf.scene.scale.set( 20.0, 20.0, 20.0 );
