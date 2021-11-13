@@ -1,0 +1,950 @@
+{
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 42300,
+            "max": [
+                162.5,
+                107.5,
+                8
+            ],
+            "min": [
+                -162.5,
+                -107.5,
+                0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 42300,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5125,
+            "count": 201456,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 36582,
+            "max": [
+                162.5,
+                107.5,
+                8
+            ],
+            "min": [
+                -162.5,
+                -107.5,
+                -5.287437154777308e-15
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 36582,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5125,
+            "count": 173358,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 8357,
+            "max": [
+                10,
+                3.7624881267547607,
+                3.765000104904175
+            ],
+            "min": [
+                0,
+                -3.7624881267547607,
+                -3.765000104904175
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5126,
+            "count": 8357,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "componentType": 5125,
+            "count": 41838,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "componentType": 5126,
+            "count": 8357,
+            "max": [
+                10,
+                3.7624881267547607,
+                3.765000104904175
+            ],
+            "min": [
+                0,
+                -3.7624881267547607,
+                -3.765000104904175
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "componentType": 5126,
+            "count": 8357,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "componentType": 5125,
+            "count": 41838,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 12,
+            "componentType": 5126,
+            "count": 8357,
+            "max": [
+                10,
+                3.7624881267547607,
+                3.765000104904175
+            ],
+            "min": [
+                0,
+                -3.7624881267547607,
+                -3.765000104904175
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 13,
+            "componentType": 5126,
+            "count": 8357,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 14,
+            "componentType": 5125,
+            "count": 41838,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 15,
+            "componentType": 5126,
+            "count": 8357,
+            "max": [
+                10,
+                3.7624881267547607,
+                3.765000104904175
+            ],
+            "min": [
+                0,
+                -3.7624881267547607,
+                -3.765000104904175
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 16,
+            "componentType": 5126,
+            "count": 8357,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 17,
+            "componentType": 5125,
+            "count": 41838,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 18,
+            "componentType": 5126,
+            "count": 8357,
+            "max": [
+                10,
+                3.7624881267547607,
+                3.765000104904175
+            ],
+            "min": [
+                0,
+                -3.7624881267547607,
+                -3.765000104904175
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 19,
+            "componentType": 5126,
+            "count": 8357,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 20,
+            "componentType": 5125,
+            "count": 41838,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 21,
+            "componentType": 5126,
+            "count": 8357,
+            "max": [
+                10,
+                3.7624881267547607,
+                3.765000104904175
+            ],
+            "min": [
+                0,
+                -3.7624881267547607,
+                -3.765000104904175
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 22,
+            "componentType": 5126,
+            "count": 8357,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 23,
+            "componentType": 5125,
+            "count": 41838,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "generator": "Luxion KeyShot",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 507600,
+            "byteOffset": 0,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 507600,
+            "byteOffset": 507600,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 805824,
+            "byteOffset": 1015200
+        },
+        {
+            "buffer": 0,
+            "byteLength": 438984,
+            "byteOffset": 1821024,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 438984,
+            "byteOffset": 2260008,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 693432,
+            "byteOffset": 2698992
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 3392424,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 3492708,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 167352,
+            "byteOffset": 3592992
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 3760344,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 3860628,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 167352,
+            "byteOffset": 3960912
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 4128264,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 4228548,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 167352,
+            "byteOffset": 4328832
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 4496184,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 4596468,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 167352,
+            "byteOffset": 4696752
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 4864104,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 4964388,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 167352,
+            "byteOffset": 5064672
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 5232024,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 100284,
+            "byteOffset": 5332308,
+            "byteStride": 12
+        },
+        {
+            "buffer": 0,
+            "byteLength": 167352,
+            "byteOffset": 5432592
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 5599944,
+            "uri": "SamSung Galaxy S7 Plus Forged without Tab resources/SamSung Galaxy S7 Plus Forged without Tab.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "active",
+            "perspective": {
+                "aspectRatio": 1,
+                "yfov": 0.6911154697478635,
+                "zfar": 917.66259765625,
+                "znear": 714.2098388671875
+            },
+            "type": "perspective"
+        }
+    ],
+    "materials": [
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2980389893054962,
+                    0.3058820068836212,
+                    0.313726007938385,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2980389893054962,
+                    0.3058820068836212,
+                    0.313726007938385,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2980389893054962,
+                    0.3058820068836212,
+                    0.313726007938385,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2980389893054962,
+                    0.3058820068836212,
+                    0.313726007938385,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2980389893054962,
+                    0.3058820068836212,
+                    0.313726007938385,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        },
+        {
+            "doubleSided": true,
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.2980389893054962,
+                    0.3058820068836212,
+                    0.313726007938385,
+                    1
+                ],
+                "metallicFactor": 0,
+                "roughnessFactor": 0.5375000014901161
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Front face-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0
+                    },
+                    "indices": 2,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "Back Plate-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 4,
+                        "POSITION": 3
+                    },
+                    "indices": 5,
+                    "material": 1,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "socket countersunk head screw_iso-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 7,
+                        "POSITION": 6
+                    },
+                    "indices": 8,
+                    "material": 2,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "socket countersunk head screw_iso-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 10,
+                        "POSITION": 9
+                    },
+                    "indices": 11,
+                    "material": 3,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "socket countersunk head screw_iso-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 13,
+                        "POSITION": 12
+                    },
+                    "indices": 14,
+                    "material": 4,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "socket countersunk head screw_iso-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 16,
+                        "POSITION": 15
+                    },
+                    "indices": 17,
+                    "material": 5,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "socket countersunk head screw_iso-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 19,
+                        "POSITION": 18
+                    },
+                    "indices": 20,
+                    "material": 6,
+                    "mode": 4
+                }
+            ]
+        },
+        {
+            "name": "socket countersunk head screw_iso-mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 22,
+                        "POSITION": 21
+                    },
+                    "indices": 23,
+                    "material": 7,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "camera": 0,
+            "matrix": [
+                0.8969935490190788,
+                -1.853601747647815e-07,
+                -0.44204367477123896,
+                0,
+                -0.10222503461220268,
+                0.9728930042350503,
+                -0.20743510690084688,
+                0,
+                0.4300612211227417,
+                0.23125587403774261,
+                0.8726786971092224,
+                0,
+                393.1465759277344,
+                293.895263671875,
+                691.8401489257812,
+                1
+            ],
+            "name": "active"
+        },
+        {
+            "mesh": 0,
+            "name": "Front face"
+        },
+        {
+            "children": [
+                1
+            ],
+            "name": "Front face"
+        },
+        {
+            "children": [
+                2
+            ],
+            "name": "Front face"
+        },
+        {
+            "mesh": 1,
+            "name": "Back Plate"
+        },
+        {
+            "children": [
+                4
+            ],
+            "name": "Back Plate"
+        },
+        {
+            "children": [
+                5
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                -5.5511198665102873e-14,
+                8.326669974183243e-14,
+                -8,
+                1
+            ],
+            "name": "Back Plate"
+        },
+        {
+            "mesh": 2,
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                7
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                8
+            ],
+            "matrix": [
+                6.123230292458899e-17,
+                0,
+                1,
+                0,
+                0.0030324000399559736,
+                0.9999949932098389,
+                -1.856810061113229e-19,
+                0,
+                -0.9999949932098389,
+                0.0030324000399559736,
+                6.123209778379708e-17,
+                0,
+                152.5,
+                97.5,
+                -7.78000020980835,
+                1
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "mesh": 3,
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                10
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                11
+            ],
+            "matrix": [
+                6.123230292458899e-17,
+                0,
+                1,
+                0,
+                -0.02533469907939434,
+                0.9996790289878845,
+                1.5513000008535063e-18,
+                0,
+                -0.9996790289878845,
+                -0.02533469907939434,
+                6.121270205279393e-17,
+                0,
+                -1.179610066310427e-13,
+                97.5,
+                -7.78000020980835,
+                1
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "mesh": 4,
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                13
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                14
+            ],
+            "matrix": [
+                6.123230292458899e-17,
+                0,
+                1,
+                0,
+                -0.00906229019165039,
+                0.9999589920043945,
+                5.549050149444605e-19,
+                0,
+                -0.9999589920043945,
+                -0.00906229019165039,
+                6.122980153041663e-17,
+                0,
+                -152.5,
+                97.5,
+                -7.78000020980835,
+                1
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "mesh": 5,
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                16
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                17
+            ],
+            "matrix": [
+                6.123230292458899e-17,
+                0,
+                1,
+                0,
+                -0.005168150179088116,
+                0.999987006187439,
+                3.1645800246201515e-19,
+                0,
+                -0.999987006187439,
+                -0.005168150179088116,
+                6.123150221375604e-17,
+                0,
+                -152.5,
+                -97.5,
+                -7.78000020980835,
+                1
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "mesh": 6,
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                19
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                20
+            ],
+            "matrix": [
+                6.123230292458899e-17,
+                0,
+                1,
+                0,
+                -0.009578010067343712,
+                0.9999539852142334,
+                5.864839789971678e-19,
+                0,
+                -0.9999539852142334,
+                -0.009578010067343712,
+                6.122949712795121e-17,
+                0,
+                -7.632779906166162e-14,
+                -97.5,
+                -7.78000020980835,
+                1
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "mesh": 7,
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                22
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                23
+            ],
+            "matrix": [
+                6.123230292458899e-17,
+                0,
+                1,
+                0,
+                -0.002657559933140874,
+                0.9999960064888,
+                1.6272900593496383e-19,
+                0,
+                -0.9999960064888,
+                -0.002657559933140874,
+                6.123209778379708e-17,
+                0,
+                152.5,
+                -97.5,
+                -7.78000020980835,
+                1
+            ],
+            "name": "socket countersunk head screw_iso"
+        },
+        {
+            "children": [
+                3,
+                6,
+                9,
+                12,
+                15,
+                18,
+                21,
+                24
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                107.5,
+                0,
+                1
+            ],
+            "name": "Forged"
+        },
+        {
+            "children": [
+                25
+            ],
+            "matrix": [
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                0.0010000000474974513,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Default"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                26
+            ]
+        }
+    ]
+}
+ 

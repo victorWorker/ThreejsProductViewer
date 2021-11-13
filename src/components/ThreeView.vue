@@ -207,6 +207,8 @@ export default {
         {name: 'SamSung_Galaxy_S7_Plus_Fit_holder_with_Tab', img: require('../assets/img/Amazon_fire_10.png')},
         {name: 'SamSung_Galaxy_S7_Plus_Forged_holder_with_Tab', img: require('../assets/img/Amazon_fire_10.png')},
         {name: 'SamSung_Galaxy_S7_Plus_Pro_with_Tab', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'SamSung_Galaxy_S7_Plus_Forged_38_mm_holder', img: require('../assets/img/Amazon_fire_10.png')},
+        
       ],
     }
   },
