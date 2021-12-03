@@ -6,21 +6,21 @@
   </div> -->
   <span>{{selected_prod.name}}</span>
   <div class="product_sel">
-    <!-- <v-select class="prodSelection" :options="products" label="name" v-model="selected_prod">
+    <v-select class="prodSelection" :options="products" label="name" v-model="selected_prod">
       <template slot="option" slot-scope="option">
         <div class="optionBar">
           <img :src="option.img" alt="" width="50" height="50">
           <span class="optionName">{{ option.name }}</span>
         </div>
       </template>
-    </v-select> -->
-    <v-select class="prodSelection" :options="holders" label="name" v-model="selected_prod">
+    </v-select>
+    <!-- <v-select class="prodSelection" :options="holders" label="name" v-model="selected_prod">
       <template slot="option" slot-scope="option">
         <div class="optionBar">
           <span class="optionName">{{ option.name }}</span>
         </div>
       </template>
-    </v-select>
+    </v-select> -->
     <button class="changeBtn" @click="changeModel">Change Model</button>
   </div>
   <div class="Previewer">
@@ -208,7 +208,10 @@ export default {
         {name: 'SamSung_Galaxy_S7_Plus_Forged_holder_with_Tab', img: require('../assets/img/Amazon_fire_10.png')},
         {name: 'SamSung_Galaxy_S7_Plus_Pro_with_Tab', img: require('../assets/img/Amazon_fire_10.png')},
         {name: 'SamSung_Galaxy_S7_Plus_Forged_38_mm_holder', img: require('../assets/img/Amazon_fire_10.png')},
-        
+        {name: 'Samsung_Galaxy_s7_plus_Edge_without_Tab', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'SamSung_Galaxy_S7_Plus_Fit_without_Tab', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'SamSung_Galaxy_S7_Plus_Forged_without_Tab', img: require('../assets/img/Amazon_fire_10.png')},
+        {name: 'SamSung_Galaxy_S7_Plus_Pro_without_Tab', img: require('../assets/img/Amazon_fire_10.png')},
       ],
     }
   },
@@ -249,27 +252,27 @@ export default {
 
 						self.render();
 
-            const holderLoader = new GLTFLoader().setPath('holders/');
-            holderLoader.load(self.holders[0].name+'.gltf', function(gltf) {
-              gltf.scene.position.set(0, 0, 0 );
-							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
-              gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
-							self.scene.add( gltf.scene );
-              self.mesh = gltf.scene;
-            })
-						// model
-
-						// const loader = new GLTFLoader().setPath('products/');
-            // // const loader = new GLTFLoader();
-						// loader.load( self.products[0].name+'.gltf', function ( gltf ) {
-            // // loader.load('Lenovo_Tab_4_8.gltf', function ( gltf ) {
+            // const holderLoader = new GLTFLoader().setPath('holders/');
+            // holderLoader.load(self.holders[0].name+'.gltf', function(gltf) {
             //   gltf.scene.position.set(0, 0, 0 );
 						// 	gltf.scene.scale.set( 20.0, 20.0, 20.0 );
             //   gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
 						// 	self.scene.add( gltf.scene );
-
             //   self.mesh = gltf.scene;
-            // } );
+            // })
+						// model
+
+						const loader = new GLTFLoader().setPath('holderoption/');
+            // const loader = new GLTFLoader();
+						loader.load( 'Pro_without_options.gltf', function ( gltf ) {
+            // loader.load('Lenovo_Tab_4_8.gltf', function ( gltf ) {
+              gltf.scene.position.set(0, 0, 0 );
+							gltf.scene.scale.set( 20.0, 20.0, 20.0 );
+              gltf.scene.rotation.set( - Math.PI / 2, Math.PI / 2, Math.PI / 2 );
+							self.scene.add( gltf.scene );
+
+              self.mesh = gltf.scene;
+            } );
 
 
 					} );
@@ -315,8 +318,8 @@ export default {
       let self = this;
       self.loader = true;
       self.scene.remove(self.mesh);
-      // const loader = new GLTFLoader().setPath('products/');
-      const loader = new GLTFLoader().setPath('holders/');
+      const loader = new GLTFLoader().setPath('products/');
+      // const loader = new GLTFLoader().setPath('holders/');
       loader.load( self.selected_prod.name+'.gltf', function ( gltf ) {
         gltf.scene.position.set(0, -2, 0 );
         gltf.scene.scale.set( 20.0, 20.0, 20.0 );
